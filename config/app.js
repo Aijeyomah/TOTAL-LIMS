@@ -30,7 +30,7 @@ const appConfig = (app) => {
   redisDB.on('connect', () => logger.info(REDIS_RUNNING));
   // initialize the port constant
 
-  const port = process.env.PORT || 7003;
+  const port = process.env.PORT || config.PORT;
 
   app.listen(port, () => {
     logger.info(`${LIMS_SYSTEM_RUNNING} ${port}`);

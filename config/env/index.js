@@ -3,6 +3,7 @@ import development from './development';
 import test from './test';
 
 const {
+  TOTAL_PORT: PORT,
   TOTAL_LIMS_SYSTEM_NODE_ENV: NODE_ENV,
   TOTAL_LIMS_SYSTEM_SECRET: SECRET,
 } = process.env;
