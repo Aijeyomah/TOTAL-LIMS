@@ -1,0 +1,68 @@
+{
+  "name": "total-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r esm",
+    "lint": "eslint --fix --ext .js ./",
+    "dev": "TOTAL_LIMS_SYSTEM_NODE_ENV=development nodemon -r esm .",
+    "migrate": "db-migrate --migrations-dir ./app/db/migrations",
+    "migrate:up": "npm run migrate up",
+    "migrate:down": "npm run migrate down",
+    "migrate:reset": "npm run migrate reset",
+    "migrate:create": "npm run migrate create",
+    "seed:create": "npm run migrate create:seeds",
+    "seed:up": "npm run migrate up:seeds",
+    "seed:down": "npm run migrate down:seeds",
+    "seed:reset": "npm run migrate reset:seeds"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sadon26/total-project.git"
+  },
+  "keywords": [
+    "laboratory",
+    "information",
+    "management",
+    "system"
+  ],
+  "author": "Eti Ijeoma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sadon26/total-project/issues"
+  },
+  "homepage": "https://github.com/sadon26/total-project#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@sendgrid/mail": "^7.3.0",
+    "app-root-path": "^3.0.0",
+    "bcrypt": "^5.0.0",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.7.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "helmet": "^4.0.0",
+    "js-sha256": "^0.9.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.27.0",
+    "pg": "^8.3.0",
+    "pg-promise": "^10.5.8",
+    "uuid": "^8.3.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "db-migrate": "^0.11.11",
+    "db-migrate-pg": "^1.2.2",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "expect": "^26.2.0",
+    "mocha": "^8.1.1",
+    "supertest": "^4.0.2"
+  }
+}

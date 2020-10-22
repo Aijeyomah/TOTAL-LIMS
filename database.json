@@ -1,0 +1,15 @@
+{
+  "development": {
+    "ENV": "TOTAL_LIMS_SYSTEM_POSTGRES_DEV_URL"
+  },
+  "test": {
+    "ENV": "TOTAL_LIMS_SYSTEM_POSTGRES_TEST_URL"
+  },
+  "production": {
+    "ENV": ""
+  },
+  "defaultEnv": {
+    "ENV": "TOTAL_LIMS_SYSTEM_NODE_ENV"
+  },
+  "sql-file": true
+}
