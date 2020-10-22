@@ -56,12 +56,12 @@
     "pg-promise": "^10.5.8",
     "redis": "^3.0.2",
     "uuid": "^8.3.0",
-    "winston": "^3.3.3"
+    "winston": "^3.3.3",
+    "db-migrate": "^0.11.11",
+    "db-migrate-pg": "^1.2.2"
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "db-migrate": "^0.11.11",
-    "db-migrate-pg": "^1.2.2",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0",
     "expect": "^26.2.0",
