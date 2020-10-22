@@ -1,5 +1,5 @@
+import "dotenv/config";
 import { json, urlencoded } from 'express';
-import 'dotenv/config'
 import cors from 'cors';
 import helmet from 'helmet';
 import config from './env';
