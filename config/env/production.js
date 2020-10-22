@@ -5,3 +5,4 @@ export default {
   TOTAL_LIMS_BASE_URL: "",
   TOTAL_LIMS_SEND_GRID_API_KEY: process.env.TOTAL_LIMS_SEND_GRID_API_KEY,
 };
+

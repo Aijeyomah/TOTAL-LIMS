@@ -14,6 +14,8 @@ const currentEnv = {
   production,
   test
 }[NODE_ENV || 'development'];
+console.log(currentEnv);
+
 
 export default {
   ...process.env,
