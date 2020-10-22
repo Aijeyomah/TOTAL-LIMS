@@ -5,5 +5,3 @@ CREATE TABLE IF NOT EXISTS blend(
     method VARCHAR(100)[] NOT NULL,
     specification VARCHAR(100)[]
 );
-//report table: 
-// test, methods and spec should be an array 
