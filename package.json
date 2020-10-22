@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon -r esm",
+    "prestart": "npm run migrate:up && npm run seed:up",
+    "start:local": "nodemon -r esm",
+    "start": "node -r esm .",
     "lint": "eslint --fix --ext .js ./",
     "dev": "TOTAL_LIMS_SYSTEM_NODE_ENV=development nodemon -r esm .",
     "migrate": "db-migrate --migrations-dir ./app/db/migrations",
