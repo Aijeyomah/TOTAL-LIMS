@@ -9,7 +9,7 @@ promisifyAll(redis);
 const { NODE_ENV } = config;
 
 // Creates an instance of a redis client.
-const redisDB = redis.createClient();
+const redisDB = redis.createClient({ url: process.env.REDIS_URL });
 
 // Selects a different database while in the testing environment
 if (NODE_ENV === 'test') {
