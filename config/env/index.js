@@ -13,7 +13,7 @@ const currentEnv = {
   development,
   production,
   test
-}[NODE_ENV || 'development'];
+}[NODE_ENV || 'production'];
 console.log(currentEnv);
 
 
