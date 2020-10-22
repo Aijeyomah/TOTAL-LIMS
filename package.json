@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prestart": "npm run migrate:up && npm run seed:up",
     "start:local": "nodemon -r esm",
     "start": "node -r esm .",
     "lint": "eslint --fix --ext .js ./",
