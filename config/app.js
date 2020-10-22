@@ -1,4 +1,5 @@
 import { json, urlencoded } from 'express';
+import 'dotenv/config'
 import cors from 'cors';
 import helmet from 'helmet';
 import config from './env';
@@ -6,6 +7,7 @@ import { redisDB } from '../app/db/setup/redis';
 import { constants } from '../app/utils';
 import Helper from '../app/utils/helpers';
 import apiV1Routes from '../app/routes/v1';
+
 
 const { REDIS_RUNNING, LIMS_SYSTEM_RUNNING, WELCOME, v1 } = constants;
 const { successResponse } = Helper;
