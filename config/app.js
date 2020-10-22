@@ -25,7 +25,7 @@ const appConfig = (app) => {
   app.get('/', (req, res) => successResponse(res, { message: WELCOME }));
   // serves v1 api routes
 
-  redisDB.on('connect', () => logger.info(REDIS_RUNNING));
+  //redisDB.on('connect', () => logger.info(REDIS_RUNNING));
   // initialize the port constant
 
   const port = config.PORT || 7003;
