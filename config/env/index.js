@@ -14,7 +14,6 @@ const currentEnv = {
   production,
   test
 }[NODE_ENV || 'production'];
-console.log(currentEnv);
 
 
 export default {

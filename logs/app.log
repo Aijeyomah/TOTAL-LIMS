@@ -1,0 +1,193 @@
+[Mon, 26 Oct 2020 21:53:56 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 21:53:56 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 21:54:06 GMT] - [31merror[39m: ApiError - 401 - Access denied,a valid access token is required - /api/v1/admin/products/blend - POST - ::1
+[Mon, 26 Oct 2020 21:58:57 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:04:53 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:04:53 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:04:57 GMT] - [31merror[39m: ApiError - 401 - Error creating product - /api/v1/admin/products/blend - POST - ::1
+[Mon, 26 Oct 2020 22:06:24 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:06:24 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:07:21 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:07:21 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:07:24 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:07:24 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:07:58 GMT] - [31merror[39m: ApiError - 401 - Error creating product - /api/v1/admin/products/blend - POST - ::1
+[Mon, 26 Oct 2020 22:08:50 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:08:51 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:08:51 GMT] - [31merror[39m: ApiError - 401 - Error creating product - /api/v1/admin/products/blend - POST - ::1
+[Mon, 26 Oct 2020 22:09:29 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:09:30 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:11:35 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:11:35 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:11:38 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:11:38 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:11:40 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:11:40 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:11:41 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:11:42 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:13:31 GMT] - [31merror[39m: ApiError - 401 - Error creating product - /api/v1/admin/products/blend - POST - ::1
+[Mon, 26 Oct 2020 22:13:57 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:13:57 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:14:28 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:14:28 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:14:51 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:14:52 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:15:34 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:15:34 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:16:26 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:16:27 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:16:28 GMT] - [31merror[39m: ApiError - 401 - Error creating product - /api/v1/admin/products/blend - POST - ::1
+[Mon, 26 Oct 2020 22:16:37 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:16:37 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:16:40 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:16:40 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:16:42 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:16:42 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:16:46 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:16:46 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:16:49 GMT] - [31merror[39m: ApiError - 401 - Error creating product - /api/v1/admin/products/blend - POST - ::1
+[Mon, 26 Oct 2020 22:17:49 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:17:50 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:17:51 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:17:51 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:17:55 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:17:55 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:18:10 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:18:10 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:18:12 GMT] - [31merror[39m: ApiError - 401 - Error creating product - /api/v1/admin/products/blend - POST - ::1
+[Mon, 26 Oct 2020 22:18:12 GMT] - [31merror[39m: ApiError - 401 - Error creating product - /api/v1/admin/products/blend - POST - ::1
+[Mon, 26 Oct 2020 22:21:21 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:21:21 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:23:40 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:23:40 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:25:46 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:25:47 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:25:49 GMT] - [31merror[39m: error fetching product - TypeError - _e39‍.a(...).oneOrNone is not a function
+[Mon, 26 Oct 2020 22:25:49 GMT] - [31merror[39m: ApiError - 400 - error fetching product - /api/v1/admin/products/blend - POST - ::1
+[Mon, 26 Oct 2020 22:26:49 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:26:49 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:26:52 GMT] - [31merror[39m: error fetching product - TypeError - _06f‍.a(...).oneOrNone is not a function
+[Mon, 26 Oct 2020 22:26:52 GMT] - [31merror[39m: ApiError - 400 - error fetching product - /api/v1/admin/products/blend - POST - ::1
+[Mon, 26 Oct 2020 22:27:44 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:27:44 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:27:46 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:27:46 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:27:48 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:27:48 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:27:54 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:27:54 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:27:55 GMT] - [31merror[39m: error fetching product - TypeError - _1a1‍.a(...).oneOrNone is not a function
+[Mon, 26 Oct 2020 22:27:55 GMT] - [31merror[39m: ApiError - 400 - error fetching product - /api/v1/admin/products/blend - POST - ::1
+[Mon, 26 Oct 2020 22:28:22 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:28:22 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:28:29 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:28:29 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:28:51 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:28:51 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:28:55 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:28:55 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:28:56 GMT] - [31merror[39m: ApiError - 409 - product already exist - /api/v1/admin/products/blend - POST - ::1
+[Mon, 26 Oct 2020 22:29:07 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:29:08 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:29:58 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:29:59 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:34:51 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:34:51 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:35:06 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:35:07 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:45:46 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:45:47 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 22:46:02 GMT] - [31merror[39m: ApiError - 409 - product already exist - /api/v1/admin/products/blend - POST - ::1
+[Mon, 26 Oct 2020 22:59:32 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 22:59:32 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:00:32 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:00:32 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:03:19 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:03:19 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:03:23 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:03:23 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:03:28 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:03:28 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:03:32 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:03:32 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:03:36 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:03:36 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:03:39 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:03:39 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:03:41 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:03:41 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:19:40 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:19:41 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:22:47 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:22:47 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:22:49 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:22:49 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:22:55 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:22:56 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:23:19 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:23:19 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:23:55 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:23:56 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:23:59 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:23:59 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:24:06 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:24:06 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:24:29 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:24:29 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:24:44 GMT] - [31merror[39m: ApiError - 401 - Error fetching staffs - /api/v1/admin/staff - GET - ::1
+[Mon, 26 Oct 2020 23:24:53 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:24:53 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:24:56 GMT] - [31merror[39m: ApiError - 401 - Error fetching staffs - /api/v1/admin/staff - GET - ::1
+[Mon, 26 Oct 2020 23:25:11 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:25:12 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:26:14 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:26:14 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:26:16 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:26:16 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:27:02 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:27:03 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:27:05 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:27:05 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:27:07 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:27:07 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:27:24 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:27:25 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:28:06 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:28:07 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:28:23 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:28:24 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:29:07 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:29:07 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:29:12 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:29:12 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:29:22 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:29:22 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:29:26 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:29:26 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:29:27 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:29:27 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:29:29 GMT] - [31merror[39m: ApiError - 401 - Error fetching staffs - /api/v1/admin/staff - GET - ::1
+[Mon, 26 Oct 2020 23:29:38 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:29:38 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:29:40 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:29:40 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:29:41 GMT] - [31merror[39m: ApiError - 401 - Error fetching staffs - /api/v1/admin/staff - GET - ::1
+[Mon, 26 Oct 2020 23:29:42 GMT] - [31merror[39m: ApiError - 401 - Error fetching staffs - /api/v1/admin/staff - GET - ::1
+[Mon, 26 Oct 2020 23:29:50 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:29:50 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:30:11 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:30:12 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:30:13 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:30:24 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:30:24 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:30:26 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:30:26 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:30:32 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:30:32 GMT] - [31merror[39m: ApiError - 401 - Error fetching staffs - /api/v1/admin/staff - GET - ::1
+[Mon, 26 Oct 2020 23:30:32 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:31:14 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:31:14 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:31:19 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:31:19 GMT] - [32minfo[39m: Redis server is running
+[Mon, 26 Oct 2020 23:31:21 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 26 Oct 2020 23:31:22 GMT] - [32minfo[39m: Redis server is running

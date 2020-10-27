@@ -10,7 +10,7 @@ import db from '../db';
 
 const { SECRET } = config;
 const { serverError } = genericError;
-const { SUCCESS_RESPONSE, LOGIN_USER_SUCCESSFULLY, FAIL } = constants;
+const { SUCCESS_RESPONSE, FAIL, SUCCESS } = constants;
 /**
  *contains helper methods
  *
@@ -169,7 +169,7 @@ class Helper {
     { data, message = SUCCESS_RESPONSE, code = 200 }
   ) {
     return res.status(code).json({
-      status: LOGIN_USER_SUCCESSFULLY,
+      status: SUCCESS,
       message,
       data,
     });

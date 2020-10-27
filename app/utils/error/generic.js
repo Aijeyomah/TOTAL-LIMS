@@ -1,5 +1,5 @@
-import ApiError from './api.error';
-import constants from '../constants';
+import ApiError from "./api.error";
+import constants from "../constants";
 
 const {
   INTERNAL_SERVER_ERROR,
@@ -9,6 +9,8 @@ const {
   INVALID_CREDENTIALS,
   ACCESS_REVOKED,
   CREATE_STAFF_FAILED,
+  CREATE_PRODUCT_FAILED,
+  GET_STAFF_ERROR
 } = constants;
 
 export default {
@@ -21,6 +23,18 @@ export default {
     message: INVALID_CREDENTIALS,
     status: 409,
   }),
-  errorCreatingStaff: new ApiError({ message: CREATE_STAFF_FAILED, status: 401  }),
+  errorCreatingStaff: new ApiError({
+    message: CREATE_STAFF_FAILED,
+    status: 401,
+  }),
+  errorCreatingStaff: new ApiError({
+    message: CREATE_STAFF_FAILED,
+    status: 401,
+  }),
+  errorCreatingProduct: new ApiError({
+    message: CREATE_PRODUCT_FAILED,
+    status: 401,
+  }),
   authRequired: new ApiError({ message: AUTH_REQUIRED, status: 401 }),
+  staffError: new ApiError({ message: GET_STAFF_ERROR, status: 401 }),
 };

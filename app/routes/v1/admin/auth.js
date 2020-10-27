@@ -1,13 +1,9 @@
 import { Router } from 'express';
-import StaffController from '../../../controllers/auth';
-import { StaffMiddleware, RoleMiddleware } from '../../../middleware/auth';
-import AuthMiddleware from '../../../middleware/auth/basic';
-
-const { generatePassword } = StaffMiddleware;
-const { authenticate } = AuthMiddleware;
+import StaffController from '../../../controllers/admin/auth';
+import { AuthMiddleware, RoleMiddleware } from "../../../middleware/auth";
 
 const router = Router();
-const { StaffLoginEmailValidator, validateLoginSchema, checkIfStaffExist, validateCreateStaffProfile } = StaffMiddleware;
+const { StaffLoginEmailValidator, validateLoginSchema, checkIfStaffExist, validateCreateStaffProfile, authenticate, generatePassword } = AuthMiddleware;
 const { roleValidator } = RoleMiddleware;
 
 const { login, createStaff } = StaffController;
@@ -24,7 +20,6 @@ router.post('/signup',
   validateCreateStaffProfile,
   checkIfStaffExist,
   generatePassword,
-  createStaff
-);
+  createStaff);
 
 export default router;

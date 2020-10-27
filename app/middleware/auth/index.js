@@ -1,4 +1,4 @@
-import StaffMiddleware from './basic';
+import AuthMiddleware from './basic';
 import RoleMiddleware from './role';
 
-export { StaffMiddleware, RoleMiddleware };
+export { AuthMiddleware, RoleMiddleware };

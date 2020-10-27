@@ -38,7 +38,7 @@ class StaffModel {
         this.salt,
       ]);
     } catch (error) {
-      console.log(error)
+      console.log(error);
       const dbError = new DBError({
         status: 400,
         message: error.message,

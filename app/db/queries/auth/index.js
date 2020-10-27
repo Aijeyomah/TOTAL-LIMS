@@ -24,6 +24,7 @@ export default {
     `,
   findStaffByStaffId: 'SELECT * FROM staff WHERE staff_id= ($1)',
   getStaffByEmail: 'SELECT * FROM staff WHERE email=($1)',
-  getStaffByIgg: 'SELECT * FROM staff WHERE igg=($1)'
+  getStaffByIgg: 'SELECT * FROM staff WHERE igg=($1)',
+  fetchAllStaff: "SELECT * FROM staff WHERE role = 'staff' "
 
 };
