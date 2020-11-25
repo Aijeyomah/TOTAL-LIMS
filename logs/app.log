@@ -1353,3 +1353,8 @@ Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.
 [Tue, 24 Nov 2020 15:44:41 GMT] - [31merror[39m: ApiError - 400 - report_No should is required - /api/v1/admin/products/blend-result - POST - ::1
 [Tue, 24 Nov 2020 15:44:58 GMT] - [32minfo[39m: Lims system is running on PORT 3000
 [Tue, 24 Nov 2020 15:44:58 GMT] - [32minfo[39m: Redis server is running
+[Wed, 25 Nov 2020 02:50:08 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 25 Nov 2020 02:50:08 GMT] - [32minfo[39m: Redis server is running
+[Wed, 25 Nov 2020 02:50:33 GMT] - [31merror[39m: ApiError - 401 - Access denied,a valid access token is required - /api/v1/admin/products/blend-result - POST - ::1
+[Wed, 25 Nov 2020 02:51:12 GMT] - [31merror[39m: 400 - DBError - EXECABORT Transaction discarded because of previous errors.
+[Wed, 25 Nov 2020 02:51:12 GMT] - [31merror[39m: ApiError - 401 - Error saving product result - /api/v1/admin/products/blend-result - POST - ::1
