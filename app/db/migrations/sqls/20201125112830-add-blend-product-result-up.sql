@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS blend_result(
-    id SERIAL PRIMARY KEY,
+    id VARCHAR(100) PRIMARY KEY,
     product_name VARCHAR(100) NOT NULL,
     specific_gravity VARCHAR,
     visco_40 VARCHAR,

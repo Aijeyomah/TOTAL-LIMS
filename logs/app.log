@@ -1358,3 +1358,34 @@ Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.
 [Wed, 25 Nov 2020 02:50:33 GMT] - [31merror[39m: ApiError - 401 - Access denied,a valid access token is required - /api/v1/admin/products/blend-result - POST - ::1
 [Wed, 25 Nov 2020 02:51:12 GMT] - [31merror[39m: 400 - DBError - EXECABORT Transaction discarded because of previous errors.
 [Wed, 25 Nov 2020 02:51:12 GMT] - [31merror[39m: ApiError - 401 - Error saving product result - /api/v1/admin/products/blend-result - POST - ::1
+[Wed, 25 Nov 2020 09:06:53 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 25 Nov 2020 09:06:53 GMT] - [32minfo[39m: Redis server is running
+[Wed, 25 Nov 2020 09:07:32 GMT] - [31merror[39m: 400 - DBError - EXECABORT Transaction discarded because of previous errors.
+[Wed, 25 Nov 2020 09:07:32 GMT] - [31merror[39m: ApiError - 401 - Error saving product result - /api/v1/admin/products/blend-result - POST - ::1
+[Wed, 25 Nov 2020 09:13:48 GMT] - [31merror[39m: 400 - DBError - EXECABORT Transaction discarded because of previous errors.
+[Wed, 25 Nov 2020 09:13:48 GMT] - [31merror[39m: ApiError - 401 - Error saving product result - /api/v1/admin/products/blend-result - POST - ::1
+[Wed, 25 Nov 2020 09:14:42 GMT] - [31merror[39m: 400 - DBError - EXECABORT Transaction discarded because of previous errors.
+[Wed, 25 Nov 2020 09:14:42 GMT] - [31merror[39m: ApiError - 401 - Error saving product result - /api/v1/admin/products/blend-result - POST - ::1
+[Wed, 25 Nov 2020 09:15:24 GMT] - [31merror[39m: 400 - DBError - EXECABORT Transaction discarded because of previous errors.
+[Wed, 25 Nov 2020 09:15:24 GMT] - [31merror[39m: ApiError - 401 - Error saving product result - /api/v1/admin/products/blend-result - POST - ::1
+[Wed, 25 Nov 2020 09:15:46 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 25 Nov 2020 09:15:46 GMT] - [32minfo[39m: Redis server is running
+[Wed, 25 Nov 2020 09:15:56 GMT] - [31merror[39m: ApiError - 401 - Error saving product result - /api/v1/admin/products/blend-result - POST - ::1
+[Wed, 25 Nov 2020 09:18:06 GMT] - [31merror[39m: ApiError - 401 - Error saving product result - /api/v1/admin/products/blend-result - POST - ::1
+[Wed, 25 Nov 2020 09:18:18 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 25 Nov 2020 09:18:18 GMT] - [32minfo[39m: Redis server is running
+[Wed, 25 Nov 2020 11:35:29 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 25 Nov 2020 11:35:29 GMT] - [32minfo[39m: Redis server is running
+[Wed, 25 Nov 2020 11:36:13 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 25 Nov 2020 11:36:13 GMT] - [32minfo[39m: Redis server is running
+[Wed, 25 Nov 2020 11:36:19 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 25 Nov 2020 11:36:19 GMT] - [32minfo[39m: Redis server is running
+[Wed, 25 Nov 2020 11:36:22 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 25 Nov 2020 11:36:22 GMT] - [32minfo[39m: Redis server is running
+[Wed, 25 Nov 2020 11:36:23 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 25 Nov 2020 11:36:23 GMT] - [32minfo[39m: Redis server is running
+[Wed, 25 Nov 2020 11:36:35 GMT] - [31merror[39m: ApiError - 401 - Access denied,a valid access token is required - /api/v1/admin/products/blend-result - POST - ::1
+[Wed, 25 Nov 2020 11:37:01 GMT] - [31merror[39m: 400 - DBError - column "blend_cat_id" of relation "blend_result" does not exist
+[Wed, 25 Nov 2020 11:37:01 GMT] - [31merror[39m: ApiError - 401 - Error saving product result - /api/v1/admin/products/blend-result - POST - ::1
+[Wed, 25 Nov 2020 11:42:11 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 25 Nov 2020 11:42:11 GMT] - [32minfo[39m: Redis server is running

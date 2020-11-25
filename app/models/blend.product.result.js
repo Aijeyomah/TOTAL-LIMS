@@ -3,7 +3,7 @@ import db, {redisDB} from '../db';
 import query from '../db/queries/product/blend';
 import { Helper, constants, DBError } from '../utils';
 import moment from 'moment';
-const { REDIS_KEYS: {blendProduct, blendProducts: blendProductKey}} = constants;
+const { REDIS_KEYS: {blendProductResult, blendProductResultKey: blendProductsReport}} = constants;
 
 
 /**
@@ -18,6 +18,7 @@ class BlendProductResult {
    * @memberof BlendProduct
    */
   constructor(options) {
+    this.id = Helper.generateId();
     this.blend_cat_id = options.blend_cat_id;
     this.product_name = options.product_name;
     this.specific_gravity = options.specific_gravity;
@@ -55,12 +56,13 @@ class BlendProductResult {
    */
   async save() {
     try {
-      // await redisDB
-      //   .multi()
-      //   .hmset(blendProduct(this.id), { ...this })
-      //   .sadd(blendProductKey, this.id)
-      //   .execAsync();
-      return db.one(query.inputBlendResult, [
+       await redisDB
+        .multi()
+        .hmset(blendProductResult(this.id), { ...this })
+        .sadd(blendProductsReport, this.id)
+        .execAsync();
+      return await db.one(query.inputBlendResult, [
+        this.id,
         this.blend_cat_id,
         this.product_name,
         this.specific_gravity,
@@ -91,6 +93,7 @@ class BlendProductResult {
         this.updated_at ,
         this.report_no 
       ]);
+     
     } catch (error) {
       console.log(error);
       
