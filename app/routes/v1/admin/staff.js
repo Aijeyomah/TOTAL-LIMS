@@ -6,9 +6,9 @@ const { authenticate } = AuthMiddleware;
 const { roleValidator } = RoleMiddleware;
 const router = Router();
 
-router.use("/", authenticate, roleValidator);
+//router.use("/", );
 const { fetchAllStaff } = AuthController;
 
-router.get("/", fetchAllStaff);
+router.get("/staff", authenticate, roleValidator,fetchAllStaff);
 
 export default router;

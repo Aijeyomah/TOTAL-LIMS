@@ -40,9 +40,9 @@ class AuthController {
   static async login(req, res) {
       const { user, body } = req;
       const isAuthenticatedUser = compareHash(
-        body.password.trim(),
-        user.password.trim(),
-        user.salt.trim()
+        body.password,
+        user.password,
+        user.salt
       );
       if (!isAuthenticatedUser) {
         return errorResponse(req, res, genericErrors.inValidLogin);
@@ -67,12 +67,12 @@ class AuthController {
         templateId: WELCOME_EMAIL_TEMPLATE_ID,
         dynamic_template_data,
       };
-      await sendDynamicMail(msg);
-      return successResponse(res, {
+       successResponse(res, {
         data: { id, first_name, last_name, created_at, igg, email },
         message: CREATE_STAFF_SUCCESSFULLY,
         code: 201
-      });
+       });
+      await sendDynamicMail(msg);
     } catch (error) {
       next(errorResponse(req, res, genericErrors.errorCreatingStaff));
     }
@@ -81,14 +81,11 @@ class AuthController {
   static async fetchAllStaff(req, res, next) {
     try {
       const data = await getAllStaff()
-      successResponse(res, { data, code: 200});
+      successResponse(res, { data, message: '', code: 200});
 
     } catch (error) {
-      console.log(error);
-      
       next(errorResponse(req, res, genericErrors.staffError));
-
     }
-  }
-}
+  };
+};
 export default AuthController;

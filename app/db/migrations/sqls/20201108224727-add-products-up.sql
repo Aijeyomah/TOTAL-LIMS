@@ -1,0 +1,26 @@
+/* Replace with your SQL commands */
+CREATE TABLE IF NOT EXISTS blend_product(
+    id uuid PRIMARY KEY,
+    blend_cat_id INT REFERENCES products_cat(id),
+    product_name VARCHAR(100) NOT NULL UNIQUE,
+    specific_gravity VARCHAR,
+    visco_40 VARCHAR,
+    visco_100 VARCHAR,
+    vi VARCHAR,
+    ccs VARCHAR,
+    mrv  VARCHAR,
+    colour VARCHAR(100),
+    aspect VARCHAR(100),
+    foaming_24 VARCHAR,
+    foaming_93 VARCHAR,
+    foaming_24_after_93 VARCHAR,
+    base_number VARCHAR,
+    flash_point VARCHAR,
+    pour_point VARCHAR,
+    noack_volatility VARCHAR,
+    sulphated_ash VARCHAR,
+    ca  VARCHAR,
+    zn  VARCHAR,
+    p  VARCHAR,
+    Mg  VARCHAR
+);

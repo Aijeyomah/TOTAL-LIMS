@@ -2,16 +2,18 @@ import { BlendProducts } from '../../../models';
 import Helper from '../../../utils/helpers';
 import constants from '../../../utils/constants';
 import genericResponse from '../../../utils/error/generic';
+import BlendProductService from "../../../services/products/blend.products";
 
+const {  updateByIdProduct, deleteProductById } = BlendProductService;
 const { successResponse, errorResponse } = Helper;
-const { CREATE_BLEND_PRODUCT } = constants;
+const { CREATE_BLEND_PRODUCT, FETCH_PRODUCTS_SUCCESSFULLY , DELETE_PRODUCT_SUCCESSFULLY, UPDATE_PRODUCT_SUCCESSFULLY} = constants;
 
 /**
  * a collection of methods that deals with blend products
  *
  * @class BlendProductController
  */
-class BlendProductController {
+class ProductController {
   /**
 
    * @static
@@ -32,9 +34,55 @@ class BlendProductController {
         code: 201,
       });
     } catch (error) {
+      console.log(error);
+
       next(errorResponse(req, res, genericResponse.errorCreatingProduct));
+    }
+  }
+
+  /**
+   * update a specific product.
+   *
+   * @static
+   * @param {Request} req - The request from the endpoint.
+   * @param {Response} res - The response returned by the method.
+   * @param { Function } next - The next function provided by express.
+   * @returns { JSON } A JSON response with a message object
+   * @memberof BlendProductController
+   */
+  static async updateProductById(req, res, next) {
+    try {
+      const data = await updateByIdProduct(req.params, req.body);
+      successResponse(res, {
+        data,
+        message: UPDATE_PRODUCT_SUCCESSFULLY
+      });
+    } catch (e) {
+      next(errorResponse(req, res, genericResponse.updateProductError));
+    }
+  }
+
+  /**
+   * delete a specific product.
+   *
+   * @static
+   * @param {Request} req - The request from the endpoint.
+   * @param {Response} res - The response returned by the method.
+   * @param { Function } next - The next function provided by express.
+   * @returns { JSON } A JSON response with a message object
+   * @memberof BlendProductController
+   */
+  static async deleteBlendProductById(req, res, next) {
+    try {
+      const data = await deleteProductById(req.params.id);
+      successResponse(res, {
+        data,
+        message: DELETE_PRODUCT_SUCCESSFULLY
+      });
+    } catch (e) {
+      next(errorResponse(req, res, genericErrors.updateProductError));
     }
   }
 }
 
-export default BlendProductController;
+export default ProductController;

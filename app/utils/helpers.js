@@ -37,6 +37,7 @@ class Helper {
   static generateUniquePassword() {
     return `${Math.random().toString(32).substr(2, 9)}`;
   }
+  
 
   static generateUniqueId(i) {
     return `${i}/${Math.random().toString(32).substr(2, 9)}`;

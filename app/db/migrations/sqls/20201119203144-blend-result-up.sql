@@ -1,7 +1,6 @@
-CREATE TABLE IF NOT EXISTS blend_product(
+CREATE TABLE IF NOT EXISTS blend_result(
     id SERIAL PRIMARY KEY,
-    blend_cat_id INT REFERENCES products_cat(id),
-    product_name VARCHAR(100) NOT NULL UNIQUE,
+    product_name VARCHAR(100) NOT NULL,
     specific_gravity VARCHAR,
     visco_40 VARCHAR,
     visco_100 VARCHAR,
@@ -21,5 +20,12 @@ CREATE TABLE IF NOT EXISTS blend_product(
     ca  VARCHAR,
     zn  VARCHAR,
     p  VARCHAR,
-    Mg  VARCHAR
+    Mg  VARCHAR,
+    source  VARCHAR NOT NULL,
+    date_sampled TIMESTAMP NOT NULL,
+    remark VARCHAR NOT NULL,
+    date_received TIMESTAMP NOT NULL,
+    date_reported TIMESTAMP NOT NULL,
+    updated_at TIMESTAMP NOT NULL,
+    report_no VARCHAR NOT NULL
 );

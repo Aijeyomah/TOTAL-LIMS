@@ -1,16 +1,35 @@
-import Joi from '@hapi/joi';
+import JoiBase from '@hapi/joi';
+import JoiDate from '@hapi/joi-date'
+// import { emailSchema, validateDateSchema } from './staff';
 
-export const generateNameSchema = (joiObject, field) => (
+const Joi = JoiBase.extend(JoiDate)
+
+
+
+export const stringCheck = (joiObject,field, min, max) => (
   joiObject.string()
-    .trim().min(2)
+    .trim()
+    .min(2)
     .max(30)
+    .required()
     .messages({
-      'string.base': `The ${field} field parameter must be a string`,
+      'string.base': `${field} field parameter must be a string`,
       'string.empty': `The ${field} field cannot be an empty string`,
-      'string.max': `${field} should not be more than 30 characters`,
-      'string.min': `${field} should not be less than 2 characters`
-    })
+      'string.max': `${field} should not be more than ${max} characters`,
+      'string.min': `${field} should not be less than ${min} characters`,
+      'any.required': `${field} should is required`
+    }).options({
+  allowUnknown: true,
+})
 );
+
+export const validateDateSchema = (field) => Joi.date()
+  .required()
+  .messages({
+    'any.required': `The ${field} is required`,
+    'date.base': `The ${field}  is either not a date or could not be cast to a date from a string or a number.`,
+    'date.format': `The ${field} does not match the required format`
+  })
 
 export const changePasswordSchema = Joi.object({
   password: Joi.string()
@@ -35,9 +54,9 @@ export const emailSchema = (joiObject) => joiObject.string().trim().email().requ
   });
 
 export const createProfileSchema = Joi.object({
-  first_name: generateNameSchema(Joi, 'first_name'),
-  last_name: generateNameSchema(Joi, 'last_name'),
+  first_name: stringCheck(Joi, 'first_name'),
+  last_name: stringCheck(Joi, 'last_name'),
   email: emailSchema(Joi),
-  igg: generateNameSchema(Joi, 'igg')
+  igg: stringCheck(Joi, 'igg')
 
 });

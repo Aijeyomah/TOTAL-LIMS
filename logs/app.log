@@ -191,3 +191,1165 @@
 [Mon, 26 Oct 2020 23:31:19 GMT] - [32minfo[39m: Redis server is running
 [Mon, 26 Oct 2020 23:31:21 GMT] - [32minfo[39m: Lims system is running on PORT 3000
 [Mon, 26 Oct 2020 23:31:22 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 21:07:32 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 21:07:33 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 21:08:44 GMT] - [31merror[39m: error fetching product - Error - connect ECONNREFUSED 127.0.0.1:5432
+[Sun, 08 Nov 2020 21:08:44 GMT] - [31merror[39m: ApiError - 400 - error fetching product - /api/v1/admin/products/blend - POST - ::1
+[Sun, 08 Nov 2020 21:10:05 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 21:10:05 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 21:10:09 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 21:10:09 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 21:10:10 GMT] - [31merror[39m: error fetching product - Error - connect ECONNREFUSED 127.0.0.1:5432
+[Sun, 08 Nov 2020 21:10:10 GMT] - [31merror[39m: ApiError - 400 - error fetching product - /api/v1/admin/products/blend - POST - ::1
+[Sun, 08 Nov 2020 21:11:01 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 21:11:04 GMT] - [31merror[39m: error fetching product - Error - connect ECONNREFUSED 127.0.0.1:5432
+[Sun, 08 Nov 2020 21:11:04 GMT] - [31merror[39m: ApiError - 400 - error fetching product - /api/v1/admin/products/blend - POST - ::1
+[Sun, 08 Nov 2020 21:11:12 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 21:11:29 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 21:11:30 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 21:11:34 GMT] - [31merror[39m: error fetching product - Error - connect ECONNREFUSED 127.0.0.1:5432
+[Sun, 08 Nov 2020 21:11:34 GMT] - [31merror[39m: ApiError - 400 - error fetching product - /api/v1/admin/products/blend - POST - ::1
+[Sun, 08 Nov 2020 21:17:20 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 21:17:28 GMT] - [31merror[39m: error fetching product - Error - connect ECONNREFUSED 127.0.0.1:5432
+[Sun, 08 Nov 2020 21:17:28 GMT] - [31merror[39m: ApiError - 400 - error fetching product - /api/v1/admin/products/blend - POST - ::1
+[Sun, 08 Nov 2020 21:17:31 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 21:20:12 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 21:20:12 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 21:20:25 GMT] - [31merror[39m: error fetching product - Error - connect ECONNREFUSED 127.0.0.1:5432
+[Sun, 08 Nov 2020 21:20:25 GMT] - [31merror[39m: ApiError - 400 - error fetching product - /api/v1/admin/products/blend - POST - ::1
+[Sun, 08 Nov 2020 21:22:55 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 21:22:57 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 21:22:57 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 21:23:05 GMT] - [31merror[39m: error fetching product - Error - connect ECONNREFUSED 127.0.0.1:5432
+[Sun, 08 Nov 2020 21:23:05 GMT] - [31merror[39m: ApiError - 400 - error fetching product - /api/v1/admin/products/blend - POST - ::1
+[Sun, 08 Nov 2020 21:25:37 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 21:25:39 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 21:30:40 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 21:30:54 GMT] - [31merror[39m: error fetching product - Error - connect ECONNREFUSED 127.0.0.1:5432
+[Sun, 08 Nov 2020 21:30:54 GMT] - [31merror[39m: ApiError - 400 - error fetching product - /api/v1/admin/products/blend - POST - ::1
+[Sun, 08 Nov 2020 21:31:50 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 21:31:50 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 21:31:52 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 21:31:53 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 21:32:15 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 21:32:15 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 21:33:17 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 21:33:18 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 21:33:21 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 21:33:21 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 21:33:23 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 21:33:23 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 21:33:30 GMT] - [31merror[39m: error fetching product - Error - connect ECONNREFUSED 127.0.0.1:5432
+[Sun, 08 Nov 2020 21:33:30 GMT] - [31merror[39m: ApiError - 400 - error fetching product - /api/v1/admin/products/blend - POST - ::1
+[Sun, 08 Nov 2020 21:35:53 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 21:35:53 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 21:36:14 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 21:36:14 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 21:36:15 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 21:36:16 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 21:36:18 GMT] - [31merror[39m: error fetching product - Error - connect ECONNREFUSED 127.0.0.1:5432
+[Sun, 08 Nov 2020 21:36:18 GMT] - [31merror[39m: ApiError - 400 - error fetching product - /api/v1/admin/products/blend - POST - ::1
+[Sun, 08 Nov 2020 21:37:10 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 21:37:10 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 21:37:23 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 21:37:23 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 21:37:39 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 21:37:42 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 21:42:48 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 21:54:53 GMT] - [31merror[39m: ApiError - 401 - Access denied,a valid access token is required - /api/v1/admin/products/blend - POST - ::1
+[Sun, 08 Nov 2020 22:13:16 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 22:13:16 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 22:13:24 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 22:13:24 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 22:13:46 GMT] - [31merror[39m: ApiError - 401 - Error creating product - /api/v1/admin/products/blend - POST - ::1
+[Sun, 08 Nov 2020 22:15:23 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 22:15:23 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 22:16:45 GMT] - [31merror[39m: ApiError - 401 - Error creating product - /api/v1/admin/products/blend - POST - ::1
+[Sun, 08 Nov 2020 22:18:35 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 22:18:35 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 22:18:37 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 22:18:37 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 22:18:39 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 22:18:39 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 22:18:43 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 22:18:43 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 22:18:46 GMT] - [31merror[39m: ApiError - 401 - Error creating product - /api/v1/admin/products/blend - POST - ::1
+[Sun, 08 Nov 2020 22:19:37 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 22:19:37 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 22:19:41 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 22:19:41 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 22:19:46 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 22:19:46 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 22:19:48 GMT] - [31merror[39m: ApiError - 401 - Error creating product - /api/v1/admin/products/blend - POST - ::1
+[Sun, 08 Nov 2020 22:20:26 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 22:20:26 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 22:21:25 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 22:21:25 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 22:21:26 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 22:21:26 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 22:26:27 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 22:26:27 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 22:26:29 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 22:26:29 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 22:52:28 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 22:52:28 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 22:52:39 GMT] - [31merror[39m: ApiError - 401 - Error creating product - /api/v1/admin/products/blend - POST - ::1
+[Sun, 08 Nov 2020 22:53:08 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 22:53:08 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 22:53:14 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 22:53:14 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 22:53:21 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 22:53:21 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 22:53:23 GMT] - [31merror[39m: ApiError - 401 - Error creating product - /api/v1/admin/products/blend - POST - ::1
+[Sun, 08 Nov 2020 22:53:36 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 22:53:36 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 22:53:39 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 22:53:39 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 22:53:41 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 22:53:41 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 22:55:09 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 22:55:09 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 22:55:12 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 22:55:12 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 22:55:45 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 22:55:45 GMT] - [32minfo[39m: Redis server is running
+[Sun, 08 Nov 2020 22:55:46 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 08 Nov 2020 22:55:46 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 20:32:35 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 20:32:35 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 20:39:16 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 20:39:16 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 20:39:18 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 20:39:18 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 20:41:10 GMT] - [31merror[39m: ApiError - 401 - Access denied,a valid access token is required - /api/v1/admin/products/blend - GET - ::1
+[Tue, 10 Nov 2020 20:43:46 GMT] - [31merror[39m: ApiError - 409 - product already exist - /api/v1/admin/products/blend - POST - ::1
+[Tue, 10 Nov 2020 20:44:35 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 20:44:35 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 20:44:39 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 20:44:39 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 20:44:41 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 20:44:41 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 20:44:42 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 20:44:42 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 20:44:46 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 20:44:46 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 20:44:48 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 20:44:48 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 20:45:54 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 20:45:54 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 20:46:15 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 20:46:15 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 20:46:29 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 20:46:29 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 20:47:45 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 20:47:45 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 20:48:37 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 20:48:37 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 20:49:29 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 20:49:29 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 20:49:35 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 20:49:35 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 20:49:43 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 20:49:43 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 20:52:26 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 20:52:26 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 20:56:03 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 20:56:03 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 20:56:06 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 20:56:06 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 20:56:07 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 20:56:07 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 20:56:08 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 20:56:08 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 20:56:18 GMT] - [31merror[39m: ApiError - 409 - product already exist - /api/v1/admin/products/blend - POST - ::1
+[Tue, 10 Nov 2020 20:57:11 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 20:57:11 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 20:57:36 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 20:57:36 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 20:59:13 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 20:59:13 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 20:59:20 GMT] - [31merror[39m: ApiError - 401 - Access denied,a valid access token is required - /api/v1/admin/products/blen - GET - ::1
+[Tue, 10 Nov 2020 20:59:58 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 20:59:58 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:00:22 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:00:22 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:00:23 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:00:23 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:00:35 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:00:35 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:00:36 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:00:36 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:03:31 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:03:31 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:03:32 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:03:32 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:03:54 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:03:54 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:08:51 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:08:51 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:08:55 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:08:55 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:08:59 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:08:59 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:09:01 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:09:01 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:09:08 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:09:08 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:13:06 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:13:06 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:13:08 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:13:08 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:13:25 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:13:25 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:14:05 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:14:05 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:14:50 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:14:50 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:15:10 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:15:10 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:15:22 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:15:22 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:15:27 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:15:27 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:15:57 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:15:57 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:16:00 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:16:00 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:16:16 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:16:16 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:16:27 GMT] - [31merror[39m: ApiError - 401 - Access denied,a valid access token is required - /api/v1/admin/staffs/staff - GET - ::1
+[Tue, 10 Nov 2020 21:17:10 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:17:10 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:17:12 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:17:12 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:18:09 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:18:09 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:18:18 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:18:18 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:18:26 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:18:26 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:20:32 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:20:32 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:20:36 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:20:36 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:21:02 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:21:02 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:22:37 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:22:37 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:22:39 GMT] - [31merror[39m: ApiError - 401 - Error creating product - /api/v1/admin/products/blend - GET - ::1
+[Tue, 10 Nov 2020 21:23:23 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:23:23 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:23:44 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:23:44 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:24:40 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:24:40 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:24:48 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:24:48 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:24:50 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:24:50 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:25:03 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:25:03 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:25:06 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:25:06 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:25:12 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:25:12 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:25:51 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:25:51 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:25:53 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:25:53 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:26:32 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:26:32 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:27:06 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:27:06 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:27:07 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:27:07 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:27:13 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:27:13 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:27:16 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:27:16 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:27:57 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:27:57 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:28:00 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:28:00 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:28:18 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:28:18 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:28:18 GMT] - [31merror[39m: DELETE_PRODUCT_FAIL - DBError - syntax error at or near "*"
+[Tue, 10 Nov 2020 21:29:23 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:29:23 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:29:26 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:29:26 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:32:20 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Tue, 10 Nov 2020 21:34:34 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:34:34 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:34:42 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:34:42 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:34:45 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Tue, 10 Nov 2020 21:34:45 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PATCH - ::1
+[Tue, 10 Nov 2020 21:37:10 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:37:10 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:37:12 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Tue, 10 Nov 2020 21:37:12 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Tue, 10 Nov 2020 21:38:34 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:38:34 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:38:40 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:38:40 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:38:40 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Tue, 10 Nov 2020 21:38:40 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Tue, 10 Nov 2020 21:40:26 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:40:26 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:40:29 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:40:29 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:40:36 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:40:36 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:40:37 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Tue, 10 Nov 2020 21:40:37 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Tue, 10 Nov 2020 21:41:18 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:41:18 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:41:24 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Tue, 10 Nov 2020 21:41:24 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Tue, 10 Nov 2020 21:41:39 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:41:39 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:41:41 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:41:41 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:41:41 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Tue, 10 Nov 2020 21:41:41 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Tue, 10 Nov 2020 21:42:27 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:42:27 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:42:34 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:42:34 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:43:03 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:43:03 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:43:06 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:43:06 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:43:12 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:43:12 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:43:15 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:43:15 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:43:17 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Tue, 10 Nov 2020 21:43:17 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Tue, 10 Nov 2020 21:45:08 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:45:08 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:45:14 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:45:14 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:47:54 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:47:54 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:47:56 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:47:56 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:47:58 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:47:58 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:47:59 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Tue, 10 Nov 2020 21:47:59 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Tue, 10 Nov 2020 21:48:24 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:48:24 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:48:32 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:48:32 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:48:34 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:48:34 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:48:41 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:48:41 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:48:42 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Tue, 10 Nov 2020 21:48:42 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Tue, 10 Nov 2020 21:49:41 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:49:41 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:49:49 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:49:49 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:49:54 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:49:54 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:53:43 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:53:43 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:53:56 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:53:56 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:54:15 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:54:15 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:54:17 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:54:17 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:54:32 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:54:32 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:54:37 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:54:37 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:54:40 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:54:40 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:54:45 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:54:45 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:54:47 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:54:47 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:54:48 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Tue, 10 Nov 2020 21:54:48 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Tue, 10 Nov 2020 21:55:06 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:55:06 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:55:11 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:55:11 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:55:16 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:55:16 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:55:16 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Tue, 10 Nov 2020 21:55:16 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Tue, 10 Nov 2020 21:55:33 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:55:33 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:55:38 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:55:38 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:55:40 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:55:40 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:56:23 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:56:23 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:56:26 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:56:26 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:56:30 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:56:30 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:56:32 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:56:32 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:56:36 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:56:36 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:56:57 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:56:57 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:57:00 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:57:00 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:57:01 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:57:01 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:57:03 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:57:03 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:57:05 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:57:05 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:57:08 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:57:08 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:57:13 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:57:13 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:57:15 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:57:15 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:57:17 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:57:17 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 21:57:45 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Tue, 10 Nov 2020 21:57:45 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Tue, 10 Nov 2020 21:59:27 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 21:59:27 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:00:07 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:00:07 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:00:07 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Tue, 10 Nov 2020 22:00:07 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/ - PUT - ::1
+[Tue, 10 Nov 2020 22:01:11 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:01:11 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:01:17 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:01:17 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:01:18 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Tue, 10 Nov 2020 22:01:18 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/ - PUT - ::1
+[Tue, 10 Nov 2020 22:01:52 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:01:52 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:01:52 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Tue, 10 Nov 2020 22:01:52 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/ - PUT - ::1
+[Tue, 10 Nov 2020 22:04:21 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:04:21 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:04:28 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:04:28 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:04:30 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:04:30 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:04:32 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:04:32 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:04:32 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Tue, 10 Nov 2020 22:04:32 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Tue, 10 Nov 2020 22:05:05 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:05:05 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:05:13 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:05:13 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:05:13 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Tue, 10 Nov 2020 22:05:13 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Tue, 10 Nov 2020 22:05:30 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:05:30 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:05:34 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:05:34 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:05:35 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Tue, 10 Nov 2020 22:05:55 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:05:55 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:05:55 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Tue, 10 Nov 2020 22:06:08 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:06:08 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:06:18 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Tue, 10 Nov 2020 22:06:30 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:06:30 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:06:33 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:06:33 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:06:35 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Tue, 10 Nov 2020 22:06:35 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Tue, 10 Nov 2020 22:07:17 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:07:17 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:11:47 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:11:47 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:11:49 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:11:49 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:11:55 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:11:55 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:12:32 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:12:32 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:12:48 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:12:48 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:13:16 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:13:16 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:13:37 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:13:37 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:13:40 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:13:40 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:13:50 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:13:50 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:13:54 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:13:54 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:14:01 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:14:01 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:15:01 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:15:01 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:15:05 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:15:05 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:15:17 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Tue, 10 Nov 2020 22:15:17 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Tue, 10 Nov 2020 22:15:39 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:15:39 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:15:41 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Tue, 10 Nov 2020 22:15:41 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Tue, 10 Nov 2020 22:17:43 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:17:43 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:17:46 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:17:46 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:19:06 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:19:06 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:19:11 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:19:11 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:24:22 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:24:22 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:24:40 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:24:40 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:24:42 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:24:42 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:28:37 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:28:37 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:32:00 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:32:00 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:32:29 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:32:29 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:32:30 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:32:30 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:32:35 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:32:35 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:32:37 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:32:37 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:32:39 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Tue, 10 Nov 2020 22:32:39 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Tue, 10 Nov 2020 22:32:57 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:32:57 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:33:16 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:33:16 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:34:22 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:34:22 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:34:24 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:34:24 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:34:32 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:34:32 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:34:38 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:34:38 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:34:40 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:34:40 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:34:42 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:34:42 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:34:56 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HGET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Tue, 10 Nov 2020 22:34:56 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Tue, 10 Nov 2020 22:35:31 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:35:31 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:35:31 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - ERR wrong number of arguments for 'hget' command
+[Tue, 10 Nov 2020 22:35:31 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Tue, 10 Nov 2020 22:35:50 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:35:50 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:35:52 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HGET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Tue, 10 Nov 2020 22:35:52 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Tue, 10 Nov 2020 22:36:14 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:36:14 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:36:15 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:36:15 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:36:20 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:36:20 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:36:21 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HGETALL command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Tue, 10 Nov 2020 22:36:21 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Tue, 10 Nov 2020 22:37:25 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:37:25 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:37:27 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HGETALL command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Tue, 10 Nov 2020 22:37:27 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Tue, 10 Nov 2020 22:37:48 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:37:48 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:37:49 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:37:49 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:38:16 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:38:16 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:38:20 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:38:20 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:38:22 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:38:22 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:38:23 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:38:23 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:38:26 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:38:26 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:38:29 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:38:29 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:38:32 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:38:32 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:39:07 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:39:07 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:39:10 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:39:10 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:39:11 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - ERR wrong number of arguments for 'hset' command
+[Tue, 10 Nov 2020 22:39:11 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Tue, 10 Nov 2020 22:39:24 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 10 Nov 2020 22:39:24 GMT] - [32minfo[39m: Redis server is running
+[Tue, 10 Nov 2020 22:39:25 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Tue, 10 Nov 2020 22:39:25 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Mon, 16 Nov 2020 12:29:39 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 16 Nov 2020 12:29:39 GMT] - [32minfo[39m: Redis server is running
+[Mon, 16 Nov 2020 12:43:33 GMT] - [31merror[39m: ApiError - 401 - Access denied,a valid access token is required - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Mon, 16 Nov 2020 12:43:59 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Mon, 16 Nov 2020 12:43:59 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Mon, 16 Nov 2020 12:44:44 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 16 Nov 2020 12:44:44 GMT] - [32minfo[39m: Redis server is running
+[Mon, 16 Nov 2020 12:44:47 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 16 Nov 2020 12:44:47 GMT] - [32minfo[39m: Redis server is running
+[Mon, 16 Nov 2020 12:44:59 GMT] - [31merror[39m: ApiError - 409 - product already exist - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Mon, 16 Nov 2020 12:45:01 GMT] - [31merror[39m: ApiError - 409 - product already exist - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Mon, 16 Nov 2020 12:46:59 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 16 Nov 2020 12:46:59 GMT] - [32minfo[39m: Redis server is running
+[Mon, 16 Nov 2020 12:47:00 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 16 Nov 2020 12:47:00 GMT] - [32minfo[39m: Redis server is running
+[Sun, 22 Nov 2020 14:44:09 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 22 Nov 2020 14:44:09 GMT] - [32minfo[39m: Redis server is running
+[Sun, 22 Nov 2020 14:45:35 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Sun, 22 Nov 2020 14:45:35 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Sun, 22 Nov 2020 14:47:21 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Sun, 22 Nov 2020 14:47:21 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Sun, 22 Nov 2020 14:49:31 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Sun, 22 Nov 2020 14:49:31 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Sun, 22 Nov 2020 14:50:21 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Sun, 22 Nov 2020 14:50:21 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Sun, 22 Nov 2020 14:50:34 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 22 Nov 2020 14:50:34 GMT] - [32minfo[39m: Redis server is running
+[Sun, 22 Nov 2020 14:54:53 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 22 Nov 2020 14:54:53 GMT] - [32minfo[39m: Redis server is running
+[Sun, 22 Nov 2020 14:54:57 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Sun, 22 Nov 2020 14:54:57 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Sun, 22 Nov 2020 14:55:34 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Sun, 22 Nov 2020 14:55:34 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Sun, 22 Nov 2020 14:56:31 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 22 Nov 2020 14:56:31 GMT] - [32minfo[39m: Redis server is running
+[Sun, 22 Nov 2020 14:56:39 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Sun, 22 Nov 2020 14:56:39 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Sun, 22 Nov 2020 14:58:11 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 22 Nov 2020 14:58:11 GMT] - [32minfo[39m: Redis server is running
+[Sun, 22 Nov 2020 14:59:11 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Sun, 22 Nov 2020 14:59:11 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Sun, 22 Nov 2020 14:59:43 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 22 Nov 2020 14:59:43 GMT] - [32minfo[39m: Redis server is running
+[Sun, 22 Nov 2020 14:59:46 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Sun, 22 Nov 2020 14:59:46 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Sun, 22 Nov 2020 15:00:08 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 22 Nov 2020 15:00:08 GMT] - [32minfo[39m: Redis server is running
+[Sun, 22 Nov 2020 15:00:13 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Sun, 22 Nov 2020 15:00:13 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Sun, 22 Nov 2020 15:00:52 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 22 Nov 2020 15:00:52 GMT] - [32minfo[39m: Redis server is running
+[Sun, 22 Nov 2020 15:00:53 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Sun, 22 Nov 2020 15:00:53 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Sun, 22 Nov 2020 15:19:09 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 22 Nov 2020 15:19:09 GMT] - [32minfo[39m: Redis server is running
+[Sun, 22 Nov 2020 15:19:19 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Sun, 22 Nov 2020 15:19:19 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Sun, 22 Nov 2020 15:19:37 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 22 Nov 2020 15:19:37 GMT] - [32minfo[39m: Redis server is running
+[Sun, 22 Nov 2020 15:20:01 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 22 Nov 2020 15:20:01 GMT] - [32minfo[39m: Redis server is running
+[Sun, 22 Nov 2020 15:20:02 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - ERR wrong number of arguments for 'hset' command
+[Sun, 22 Nov 2020 15:20:02 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Sun, 22 Nov 2020 15:20:30 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 22 Nov 2020 15:20:30 GMT] - [32minfo[39m: Redis server is running
+[Sun, 22 Nov 2020 15:20:40 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 22 Nov 2020 15:20:40 GMT] - [32minfo[39m: Redis server is running
+[Sun, 22 Nov 2020 15:20:42 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 22 Nov 2020 15:20:42 GMT] - [32minfo[39m: Redis server is running
+[Sun, 22 Nov 2020 15:20:51 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 22 Nov 2020 15:20:51 GMT] - [32minfo[39m: Redis server is running
+[Sun, 22 Nov 2020 15:20:54 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 22 Nov 2020 15:20:54 GMT] - [32minfo[39m: Redis server is running
+[Sun, 22 Nov 2020 15:20:55 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Sun, 22 Nov 2020 15:20:55 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Sun, 22 Nov 2020 15:21:12 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 22 Nov 2020 15:21:12 GMT] - [32minfo[39m: Redis server is running
+[Sun, 22 Nov 2020 15:24:45 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 22 Nov 2020 15:24:45 GMT] - [32minfo[39m: Redis server is running
+[Sun, 22 Nov 2020 15:24:46 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 22 Nov 2020 15:24:46 GMT] - [32minfo[39m: Redis server is running
+[Sun, 22 Nov 2020 15:24:48 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 22 Nov 2020 15:24:48 GMT] - [32minfo[39m: Redis server is running
+[Sun, 22 Nov 2020 15:24:50 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 22 Nov 2020 15:24:50 GMT] - [32minfo[39m: Redis server is running
+[Sun, 22 Nov 2020 15:24:52 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 22 Nov 2020 15:24:52 GMT] - [32minfo[39m: Redis server is running
+[Sun, 22 Nov 2020 15:24:53 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 22 Nov 2020 15:24:53 GMT] - [32minfo[39m: Redis server is running
+[Sun, 22 Nov 2020 15:24:55 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 22 Nov 2020 15:24:55 GMT] - [32minfo[39m: Redis server is running
+[Sun, 22 Nov 2020 15:25:30 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 22 Nov 2020 15:25:30 GMT] - [32minfo[39m: Redis server is running
+[Sun, 22 Nov 2020 15:25:35 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Sun, 22 Nov 2020 15:25:35 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Sun, 22 Nov 2020 15:25:59 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 22 Nov 2020 15:25:59 GMT] - [32minfo[39m: Redis server is running
+[Sun, 22 Nov 2020 15:26:00 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Sun, 22 Nov 2020 15:26:00 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Sun, 22 Nov 2020 15:30:14 GMT] - [31merror[39m: UPDATE_BLEND_PRODUCT_FAIL - DBError - node_redis: The HSET command contains a invalid argument type.
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+[Sun, 22 Nov 2020 15:30:14 GMT] - [31merror[39m: ApiError - 500 - update product failed - /api/v1/admin/products/blend/560368eb-6f71-4558-a0ed-3b7f49d68d5b - PUT - ::1
+[Sun, 22 Nov 2020 15:30:34 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 22 Nov 2020 15:30:34 GMT] - [32minfo[39m: Redis server is running
+[Sun, 22 Nov 2020 15:33:19 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 22 Nov 2020 15:33:19 GMT] - [32minfo[39m: Redis server is running
+[Sun, 22 Nov 2020 15:36:44 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 22 Nov 2020 15:36:44 GMT] - [32minfo[39m: Redis server is running
+[Mon, 23 Nov 2020 21:05:27 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 23 Nov 2020 21:05:27 GMT] - [32minfo[39m: Redis server is running
+[Mon, 23 Nov 2020 21:09:42 GMT] - [31merror[39m: ApiError - 401 - Access denied,a valid access token is required - /api/v1/admin/products/blend - POST - ::1
+[Mon, 23 Nov 2020 21:11:20 GMT] - [31merror[39m: ApiError - 401 - Error saving product result - /api/v1/admin/products/blend/result - POST - ::1
+[Tue, 24 Nov 2020 11:48:59 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 11:48:59 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 11:49:09 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 11:49:09 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 11:49:16 GMT] - [31merror[39m: ApiError - 401 - Access denied,a valid access token is required - /api/v1/admin/products/blend/result - POST - ::1
+[Tue, 24 Nov 2020 11:50:53 GMT] - [31merror[39m: ApiError - 401 - Error saving product result - /api/v1/admin/products/blend/result - POST - ::1
+[Tue, 24 Nov 2020 11:52:41 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 11:52:41 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 11:52:41 GMT] - [31merror[39m: ApiError - 401 - Error saving product result - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 11:53:12 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 11:53:12 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 11:53:33 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 11:53:33 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 11:53:57 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 11:53:57 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 11:53:58 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 11:53:58 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 11:54:00 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 11:54:00 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 11:54:03 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 11:54:03 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 11:54:10 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 11:54:10 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 11:58:20 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 11:58:20 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 11:58:30 GMT] - [32minfo[39m: Checking Login Credentials!
+[Tue, 24 Nov 2020 12:08:58 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:08:58 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:09:01 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:09:01 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:09:05 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:09:05 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:09:08 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:09:08 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:09:10 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:09:10 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:09:18 GMT] - [32minfo[39m: Checking Login Credentials!
+[Tue, 24 Nov 2020 12:14:20 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:14:20 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:14:55 GMT] - [32minfo[39m: Checking Login Credentials!
+[Tue, 24 Nov 2020 12:15:12 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:15:12 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:15:16 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:15:16 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:15:34 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:15:34 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:20:43 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:20:44 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:21:58 GMT] - [32minfo[39m: Checking Login Credentials!
+[Tue, 24 Nov 2020 12:22:31 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:22:31 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:22:34 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:22:34 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:22:37 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:22:37 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:22:45 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:22:45 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:22:52 GMT] - [32minfo[39m: Checking Login Credentials!
+[Tue, 24 Nov 2020 12:24:23 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:24:23 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:24:23 GMT] - [32minfo[39m: Checking Login Credentials!
+[Tue, 24 Nov 2020 12:24:46 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:24:46 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:25:51 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:25:51 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:25:54 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:25:54 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:25:59 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:25:59 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:26:03 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:26:03 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:26:10 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:26:10 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:26:10 GMT] - [32minfo[39m: Checking Login Credentials!
+[Tue, 24 Nov 2020 12:27:09 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:27:09 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:27:14 GMT] - [32minfo[39m: Checking Login Credentials!
+[Tue, 24 Nov 2020 12:27:26 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:27:26 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:28:48 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:28:48 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:29:15 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:29:15 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:29:20 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:29:20 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:29:23 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:29:23 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:29:24 GMT] - [32minfo[39m: Checking Login Credentials!
+[Tue, 24 Nov 2020 12:29:41 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:29:41 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:29:43 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:29:43 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:29:45 GMT] - [32minfo[39m: Checking Login Credentials!
+[Tue, 24 Nov 2020 12:29:45 GMT] - [32minfo[39m: invalid Login Credentials!
+[Tue, 24 Nov 2020 12:35:50 GMT] - [32minfo[39m: Checking Login Credentials!
+[Tue, 24 Nov 2020 12:35:50 GMT] - [32minfo[39m: invalid Login Credentials!
+[Tue, 24 Nov 2020 12:36:29 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:36:29 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:36:33 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:36:33 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:37:19 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:37:19 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:37:30 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:37:30 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:38:29 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:38:29 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:39:40 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:39:40 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:39:41 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:39:41 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:39:44 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:39:44 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:40:20 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:40:20 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:40:30 GMT] - [31merror[39m: ApiError - 400 - "igg" is not allowed - /api/v1/admin/auth/login - POST - ::1
+[Tue, 24 Nov 2020 12:41:01 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:41:01 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:41:10 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:41:10 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:41:29 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:41:29 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:41:37 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:41:37 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:41:40 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:41:40 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:41:42 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:41:42 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:41:45 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:41:45 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:43:57 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:43:57 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:44:04 GMT] - [31merror[39m: ApiError - 400 - igg should is required - /api/v1/admin/auth/login - POST - ::1
+[Tue, 24 Nov 2020 12:54:56 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:54:56 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:56:32 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:56:32 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:56:36 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:56:36 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:57:20 GMT] - [31merror[39m: ApiError - 400 - "kk" must be a valid date - /api/v1/admin/auth/login - POST - ::1
+[Tue, 24 Nov 2020 12:57:31 GMT] - [31merror[39m: ApiError - 401 - Invalid email or password - /api/v1/admin/auth/login - POST - ::1
+[Tue, 24 Nov 2020 12:57:43 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:57:43 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:57:59 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:57:59 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:58:38 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:58:38 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 12:58:51 GMT] - [31merror[39m: ApiError - 400 - "kk" must be a valid date - /api/v1/admin/auth/login - POST - ::1
+[Tue, 24 Nov 2020 12:59:59 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 12:59:59 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:00:02 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:00:02 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:00:09 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:00:09 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:00:16 GMT] - [31merror[39m: ApiError - 401 - Invalid email or password - /api/v1/admin/auth/login - POST - ::1
+[Tue, 24 Nov 2020 13:01:59 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:01:59 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:04:34 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:04:34 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:14:27 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:14:27 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:14:41 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:14:41 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:14:58 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:14:58 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:15:34 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:15:34 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:15:36 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:15:36 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:15:38 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:15:38 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:15:51 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:15:51 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:15:53 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:15:53 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:15:55 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:15:55 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:16:55 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:16:55 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:17:08 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:17:08 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:17:17 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:17:17 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:17:28 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:17:28 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:17:30 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:17:30 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:17:50 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:17:50 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:17:53 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:17:53 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:17:54 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:17:54 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:17:55 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:17:55 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:17:59 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:17:59 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:18:03 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:18:03 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:18:05 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:18:05 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:18:08 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:18:08 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:18:12 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:18:12 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:18:40 GMT] - [31merror[39m: ApiError - 400 - [object Object] should is required - /api/v1/admin/auth/login - POST - ::1
+[Tue, 24 Nov 2020 13:19:08 GMT] - [31merror[39m: ApiError - 400 - "date_sampled" is required - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 13:19:38 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:19:38 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:19:43 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:19:43 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:19:46 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:19:46 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:19:49 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:19:49 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:19:55 GMT] - [31merror[39m: ApiError - 400 - [object Object] should is required - /api/v1/admin/auth/login - POST - ::1
+[Tue, 24 Nov 2020 13:20:13 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:20:13 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:20:17 GMT] - [31merror[39m: ApiError - 401 - Invalid email or password - /api/v1/admin/auth/login - POST - ::1
+[Tue, 24 Nov 2020 13:21:04 GMT] - [31merror[39m: ApiError - 400 - "kk" must be in DD-MM-YYYY format - /api/v1/admin/auth/login - POST - ::1
+[Tue, 24 Nov 2020 13:22:16 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:22:16 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:22:27 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:22:27 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:26:41 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:26:41 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:26:42 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:26:42 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:26:47 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:26:47 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:27:00 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:27:00 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:27:02 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:27:02 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:30:44 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:30:44 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:33:22 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:33:22 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:34:07 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:34:07 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:34:11 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:34:11 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:34:12 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:34:12 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:34:39 GMT] - [31merror[39m: ApiError - 400 - igg should is required - /api/v1/admin/auth/login - POST - ::1
+[Tue, 24 Nov 2020 13:35:16 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:35:16 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:35:19 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:35:19 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:35:24 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:35:24 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:35:27 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:35:27 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:35:29 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:35:29 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:35:32 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:35:32 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:37:50 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:37:50 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:38:10 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:38:10 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:40:05 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:40:05 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:40:07 GMT] - [31merror[39m: ApiError - 400 - igg should is required - /api/v1/admin/auth/login - POST - ::1
+[Tue, 24 Nov 2020 13:43:01 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:43:01 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:43:37 GMT] - [31merror[39m: ApiError - 400 - "date_sampled" is required - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 13:44:43 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:44:43 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:44:51 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:44:51 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:45:00 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:45:00 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:45:01 GMT] - [31merror[39m: ApiError - 400 - The date_sampled is required - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 13:48:22 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:48:22 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 13:48:24 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 13:48:24 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 14:04:29 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 14:04:29 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 14:04:34 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 14:04:34 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 14:04:55 GMT] - [31merror[39m: uncaughtException: blend_cat_id is not defined
+/Users/aijey_omah/Documents/total-project/index.js:1
+ReferenceError: blend_cat_id is not defined
+    at Object.<anonymous> (/Users/aijey_omah/Documents/total-project/index.js:14:9)
+    at Generator.next (<anonymous>)
+    at bl (/Users/aijey_omah/Documents/GitHub/total-project/node_modules/esm/esm.js:1)
+    at kl (/Users/aijey_omah/Documents/GitHub/total-project/node_modules/esm/esm.js:1)
+    at Object.u (/Users/aijey_omah/Documents/GitHub/total-project/node_modules/esm/esm.js:1)
+    at Object.o (/Users/aijey_omah/Documents/GitHub/total-project/node_modules/esm/esm.js:1)
+    at Object.<anonymous> (/Users/aijey_omah/Documents/GitHub/total-project/node_modules/esm/esm.js:1)
+    at Object.apply (/Users/aijey_omah/Documents/GitHub/total-project/node_modules/esm/esm.js:1)
+    at /Users/aijey_omah/Documents/GitHub/total-project/node_modules/esm/esm.js:1
+    at /Users/aijey_omah/Documents/GitHub/total-project/node_modules/esm/esm.js:1
+    at /Users/aijey_omah/Documents/GitHub/total-project/node_modules/esm/esm.js:1
+    at Su (/Users/aijey_omah/Documents/GitHub/total-project/node_modules/esm/esm.js:1)
+    at ku (/Users/aijey_omah/Documents/GitHub/total-project/node_modules/esm/esm.js:1)
+    at _c (/Users/aijey_omah/Documents/GitHub/total-project/node_modules/esm/esm.js:1)
+    at Function.<anonymous> (/Users/aijey_omah/Documents/GitHub/total-project/node_modules/esm/esm.js:1)
+    at Function.<anonymous> (/Users/aijey_omah/Documents/GitHub/total-project/node_modules/esm/esm.js:1)
+[Tue, 24 Nov 2020 14:04:55 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 14:04:55 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 14:05:06 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 14:05:06 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 14:05:39 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 14:05:39 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 14:14:45 GMT] - [31merror[39m: ApiError - 401 - Access denied,a valid access token is required - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 14:15:28 GMT] - [31merror[39m: ApiError - 400 - "blend_cat_id" is not allowed - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 14:17:46 GMT] - [31merror[39m: ApiError - 400 - "specific_gravity" is not allowed - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 14:18:02 GMT] - [31merror[39m: ApiError - 400 - "specific_gravity" is not allowed - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 14:18:05 GMT] - [31merror[39m: ApiError - 400 - "specific_gravity" is not allowed - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 14:18:06 GMT] - [31merror[39m: ApiError - 400 - "specific_gravity" is not allowed - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 14:24:26 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 14:24:26 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 14:24:51 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 14:24:51 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 14:25:01 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 14:25:01 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 14:25:30 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 14:25:30 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 14:45:25 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 14:45:25 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 14:48:29 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 14:48:29 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 14:48:35 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 14:48:35 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 14:49:26 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 14:49:26 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 14:49:50 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 14:49:50 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 14:50:04 GMT] - [31merror[39m: ApiError - 400 - "blend_cat_id" is not allowed - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 14:51:06 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 14:51:06 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 14:51:22 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 14:51:22 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 14:51:23 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 14:51:23 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 14:51:26 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 14:51:26 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 14:51:28 GMT] - [31merror[39m: ApiError - 409 - product already exist - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 14:52:33 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 14:52:33 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 14:52:35 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 14:52:35 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 14:52:38 GMT] - [31merror[39m: ApiError - 401 - Error saving product result - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 14:53:17 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 14:53:17 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 14:53:22 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 14:53:22 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 14:53:24 GMT] - [31merror[39m: ApiError - 401 - Error saving product result - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 14:56:04 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 14:56:04 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 14:56:07 GMT] - [31merror[39m: ApiError - 401 - Error saving product result - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 15:00:17 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 15:00:17 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 15:00:36 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 15:00:36 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 15:00:41 GMT] - [31merror[39m: ApiError - 401 - Error saving product result - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 15:07:21 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 15:07:21 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 15:07:54 GMT] - [31merror[39m: ApiError - 401 - Error saving product result - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 15:08:45 GMT] - [31merror[39m: ApiError - 401 - Error saving product result - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 15:09:08 GMT] - [31merror[39m: ApiError - 401 - Error saving product result - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 15:10:54 GMT] - [31merror[39m: ApiError - 401 - Error saving product result - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 15:11:17 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 15:11:17 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 15:11:27 GMT] - [31merror[39m: ApiError - 401 - Error saving product result - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 15:11:55 GMT] - [31merror[39m: ApiError - 401 - Error saving product result - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 15:12:23 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 15:12:23 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 15:12:27 GMT] - [31merror[39m: 400 - DBError - EXECABORT Transaction discarded because of previous errors.
+[Tue, 24 Nov 2020 15:12:27 GMT] - [31merror[39m: ApiError - 401 - Error saving product result - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 15:15:57 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 15:15:57 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 15:16:00 GMT] - [31merror[39m: 400 - DBError - EXECABORT Transaction discarded because of previous errors.
+[Tue, 24 Nov 2020 15:16:00 GMT] - [31merror[39m: ApiError - 401 - Error saving product result - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 15:19:10 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 15:19:10 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 15:19:14 GMT] - [31merror[39m: 400 - DBError - EXECABORT Transaction discarded because of previous errors.
+[Tue, 24 Nov 2020 15:19:14 GMT] - [31merror[39m: ApiError - 401 - Error saving product result - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 15:22:41 GMT] - [31merror[39m: uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+[Tue, 24 Nov 2020 15:27:42 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 15:27:42 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 15:27:46 GMT] - [31merror[39m: ApiError - 401 - Error saving product result - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 15:34:57 GMT] - [31merror[39m: ApiError - 400 - The date_sampled does not match the required format - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 15:35:48 GMT] - [31merror[39m: ApiError - 400 - The date_sampled does not match the required format - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 15:36:19 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 15:36:19 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 15:36:23 GMT] - [31merror[39m: ApiError - 401 - Error saving product result - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 15:37:34 GMT] - [31merror[39m: ApiError - 401 - Error saving product result - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 15:37:56 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 15:37:56 GMT] - [32minfo[39m: Redis server is running
+[Tue, 24 Nov 2020 15:37:59 GMT] - [31merror[39m: ApiError - 401 - Error saving product result - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 15:42:55 GMT] - [31merror[39m: ApiError - 400 - report_No should is required - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 15:43:19 GMT] - [31merror[39m: ApiError - 401 - Error saving product result - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 15:43:50 GMT] - [31merror[39m: ApiError - 400 - report_No should is required - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 15:44:39 GMT] - [31merror[39m: ApiError - 400 - report_No should is required - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 15:44:41 GMT] - [31merror[39m: ApiError - 400 - report_No should is required - /api/v1/admin/products/blend-result - POST - ::1
+[Tue, 24 Nov 2020 15:44:58 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 24 Nov 2020 15:44:58 GMT] - [32minfo[39m: Redis server is running

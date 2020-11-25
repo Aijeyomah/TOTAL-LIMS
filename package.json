@@ -38,6 +38,7 @@
   "homepage": "https://github.com/sadon26/total-project#readme",
   "dependencies": {
     "@hapi/joi": "^17.1.1",
+    "@hapi/joi-date": "^2.0.1",
     "@sendgrid/mail": "^7.3.0",
     "app-root-path": "^3.0.0",
     "bcrypt": "^5.0.0",
@@ -51,11 +52,12 @@
     "esm": "^3.2.25",
     "express": "^4.17.1",
     "helmet": "^4.0.0",
+    "joi-date-extensions": "^1.2.0",
     "js-sha256": "^0.9.0",
     "jsonwebtoken": "^8.5.1",
     "moment": "^2.27.0",
     "pg": "^8.3.0",
-    "pg-promise": "^10.5.8",
+    "pg-promise": "^10.7.3",
     "redis": "^3.0.2",
     "uuid": "^8.3.0",
     "winston": "^3.3.3"

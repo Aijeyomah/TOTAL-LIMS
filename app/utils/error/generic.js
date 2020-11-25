@@ -10,7 +10,10 @@ const {
   ACCESS_REVOKED,
   CREATE_STAFF_FAILED,
   CREATE_PRODUCT_FAILED,
-  GET_STAFF_ERROR
+  GET_STAFF_ERROR,
+  RETRIEVE_ALL_PRODUCTS_FAIL,
+  UPDATE_PRODUCT_FAIL,
+  ERROR_SAVING_PRODUCT_RESULT
 } = constants;
 
 export default {
@@ -35,6 +38,13 @@ export default {
     message: CREATE_PRODUCT_FAILED,
     status: 401,
   }),
+  errorSavingProductResult: new ApiError({
+    message: ERROR_SAVING_PRODUCT_RESULT,
+    status: 401,
+  }),
   authRequired: new ApiError({ message: AUTH_REQUIRED, status: 401 }),
   staffError: new ApiError({ message: GET_STAFF_ERROR, status: 401 }),
+  updateProductError: new ApiError({ message: UPDATE_PRODUCT_FAIL }),
+  getProductError: new ApiError({ message: RETRIEVE_ALL_PRODUCTS_FAIL }),
 };
+

@@ -29,4 +29,13 @@ export default {
   PRODUCT_CONFLICT: "product already exist",
   ERROR_FETCHING_PRODUCT: "error fetching product",
   CREATE_BLEND_PRODUCT: "product created successfully",
+  FETCH_PRODUCTS_SUCCESSFULLY: "fetch product successfully",
+  SAVE_PRODUCT_RESULT_SUCCESSFULLY: "product result successfully saved",
+  ERROR_SAVING_PRODUCT_RESULT: "Error saving product result",
+  RETRIEVE_ALL_PRODUCTS_FAIL: "fetch product failed",
+  UPDATE_PRODUCT_SUCCESSFULLY: "product updated successfully",
+  UPDATE_PRODUCT_FAIL: "update product failed",
+  DELETE_PRODUCT_SUCCESSFULLY: "product deleted successfully",
+  ROLE_NOT_SUFFICIENT:
+    'You required a higher access level to utilize this resource'
 };

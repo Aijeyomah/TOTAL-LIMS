@@ -1,5 +1,5 @@
 import loginSchema from './auth';
-
-export { loginSchema };
+import productResultSchema from './product';
+export { loginSchema, productResultSchema };
 export { changePasswordSchema, createProfileSchema } from './staff';
 export { uuidCheck } from './generic';

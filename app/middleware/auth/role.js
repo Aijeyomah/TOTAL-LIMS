@@ -16,12 +16,22 @@ class RoleMiddleware {
     return req.data.role === 'super' ? next() : errorResponse(req, res, genericErrors.unAuthorized);
   }
 
-  static AdminRoleValueValidator(req, res, next) {
+  static adminRoleValueValidator(req, res, next) {
     constants.roles.includes.super ? next() : errorResponse(req, res, new ApiError({
       message: constants.INVALID_ROLE_PARAMETER,
       status: 400,
     }));
-  }
+  };
+
+  static roleAccessValidator(roles, position = 'data') {
+    return (req, res, next) => (roles.includes(req[position].role) 
+      ? next() : errorResponse(req, res, new ApiError({
+        status: 403,
+        message: constants.ROLE_NOT_SUFFICIENT
+      })));  
+  };
+
 }
+
 
 export default RoleMiddleware;

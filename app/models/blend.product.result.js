@@ -1,7 +1,8 @@
+ 
 import db, {redisDB} from '../db';
 import query from '../db/queries/product/blend';
-import { Helper, constants } from '../utils';
-
+import { Helper, constants, DBError } from '../utils';
+import moment from 'moment';
 const { REDIS_KEYS: {blendProduct, blendProducts: blendProductKey}} = constants;
 
 
@@ -10,14 +11,13 @@ const { REDIS_KEYS: {blendProduct, blendProducts: blendProductKey}} = constants;
  * @class productModel
  *
  */
-class BlendProducts {
+class BlendProductResult {
   /**
    *Creates an instance of productModel.
    * @param {object} options
    * @memberof BlendProduct
    */
   constructor(options) {
-    this.id = Helper.generateId();
     this.blend_cat_id = options.blend_cat_id;
     this.product_name = options.product_name;
     this.specific_gravity = options.specific_gravity;
@@ -40,6 +40,13 @@ class BlendProducts {
     this.zn = options.zn;
     this.p = options.p;
     this.Mg = options.Mg;
+    this.source = options.source ,
+    this.date_sampled = options.date_sampled ,
+    this.remark= options.remark,
+    this.date_received = options.date_received ,
+    this.date_reported = moment() ,
+    this.updated_at = moment(),
+    this.report_no = options.report_no
   }
 
   /**
@@ -47,15 +54,13 @@ class BlendProducts {
    * @memberof BlendProduct
    */
   async save() {
-    
     try {
-      await redisDB
-        .multi()
-        .hmset(blendProduct(this.id), { ...this })
-        .sadd(blendProductKey, this.id)
-        .execAsync();
-      return db.one(query.createBlendProduct, [
-        this.id,
+      // await redisDB
+      //   .multi()
+      //   .hmset(blendProduct(this.id), { ...this })
+      //   .sadd(blendProductKey, this.id)
+      //   .execAsync();
+      return db.one(query.inputBlendResult, [
         this.blend_cat_id,
         this.product_name,
         this.specific_gravity,
@@ -78,8 +83,17 @@ class BlendProducts {
         this.zn,
         this.p,
         this.Mg,
+        this.source ,
+        this.date_sampled ,
+        this.remark ,
+        this.date_received ,
+        this.date_reported ,
+        this.updated_at ,
+        this.report_no 
       ]);
     } catch (error) {
+      console.log(error);
+      
       const dbError = new DBError({
         status: 400,
         message: error.message,
@@ -90,4 +104,5 @@ class BlendProducts {
   }
 }
 
-export default BlendProducts;
+export default BlendProductResult;
+
