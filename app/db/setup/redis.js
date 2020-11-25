@@ -6,10 +6,11 @@ import config from '../../../config/env';
 // promisify redis to enable the use of ES6 promises features.
 promisifyAll(redis);
 
-const { NODE_ENV } = config;
+const { NODE_ENV, REDIS_URL } = config;
 
-// Creates an instance of a redis client.
-const redisDB = redis.createClient();
+
+// Creates an instance of a Redis client.
+const redisDB = REDIS_URL ? redis.createClient(REDIS_URL) : redis.createClient();
 //{ url: process.env.REDIS_URL }
 
 // Selects a different database while in the testing environment
