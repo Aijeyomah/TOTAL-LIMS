@@ -1,4 +1,4 @@
- INSERT INTO products_analysis
+ INSERT INTO product_tests
     (id, test, method, unit)
 VALUES
     (1,   'Specific_gravity', 'ASTM D4052 @ 15°C', 'kg/m³'),
