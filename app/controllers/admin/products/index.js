@@ -35,12 +35,12 @@ class ProductController {
     } catch (error) {
       next(errorResponse(req, res, genericErrors.errorCreatingProductTest));
     }
-  }
+  };
 
   /**
 
    * @static
-   * @param {object} req - a request from an endpoint
+   * param {object} req - a request from an endpoint
    * @param {object} res - a response returned by the method
     @returns {JSON} - A JSON response with the product info 
    * @param {function} next - a function to call the next handler
