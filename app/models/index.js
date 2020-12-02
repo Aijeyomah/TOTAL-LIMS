@@ -1,4 +1,4 @@
 import StaffModel from './staff';
-import BlendProducts from './blend.product';
+import ProductTestModel from './product.tests';
 
-export { StaffModel, BlendProducts };
+export { StaffModel, ProductTestModel };

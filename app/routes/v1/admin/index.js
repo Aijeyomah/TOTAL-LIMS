@@ -10,8 +10,8 @@ const router = Router();
 const { authenticate } = AuthMiddleware;
 
 router.use('/auth', authRoute);
-router.use("/staffs", staffRoute);
-router.use('/products',authenticate, productRoute);
+router.use("/staff", staffRoute);
+router.use('/products', authenticate, productRoute);
 
 
 

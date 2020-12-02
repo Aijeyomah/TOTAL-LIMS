@@ -16,10 +16,11 @@ const appConfig = (app) => {
   app.use(helmet());
   // adds middleware for cross-origin resource sharing configuration
   app.use(cors());
-  // adds middleware that parses requests with x-www-form-urlencoded data encoding
-  app.use(urlencoded({ extended: true }));
   // adds a heartbeat route for the culture
   app.use(json());
+  // adds middleware that parses requests with x-www-form-urlencoded data encoding
+  app.use(urlencoded({ extended: true }));
+  
 
   app.use(v1, apiV1Routes);
 

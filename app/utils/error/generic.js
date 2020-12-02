@@ -9,6 +9,7 @@ const {
   INVALID_CREDENTIALS,
   ACCESS_REVOKED,
   CREATE_STAFF_FAILED,
+  CREATE_PRODUCT_FAILED_TEST ,
   CREATE_PRODUCT_FAILED,
   GET_STAFF_ERROR,
   RETRIEVE_ALL_PRODUCTS_FAIL,
@@ -22,10 +23,7 @@ export default {
   unAuthorized: new ApiError({ message: INVALID_PERMISSION, status: 403 }),
   accessRevoked: new ApiError({ message: ACCESS_REVOKED, status: 403 }),
   inValidLogin: new ApiError({ message: INVALID_CREDENTIALS, status: 401 }),
-  conflictSignupError: new ApiError({
-    message: INVALID_CREDENTIALS,
-    status: 409,
-  }),
+  conflictSignupError: new ApiError({message: INVALID_CREDENTIALS, status: 409,}),
   errorCreatingStaff: new ApiError({
     message: CREATE_STAFF_FAILED,
     status: 401,
@@ -34,10 +32,9 @@ export default {
     message: CREATE_STAFF_FAILED,
     status: 401,
   }),
-  errorCreatingProduct: new ApiError({
-    message: CREATE_PRODUCT_FAILED,
-    status: 401,
-  }),
+  errorCreatingProductTest: new ApiError({ message: CREATE_PRODUCT_FAILED_TEST, status: 401, }),
+  errorCreatingProduct: new ApiError({message: CREATE_PRODUCT_FAILED, status: 401,}),
+
   errorSavingProductResult: new ApiError({
     message: ERROR_SAVING_PRODUCT_RESULT,
     status: 401,

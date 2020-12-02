@@ -10,8 +10,8 @@ const { NODE_ENV, REDIS_URL } = config;
 
 
 // Creates an instance of a Redis client.
-const redisDB = REDIS_URL ? redis.createClient(REDIS_URL) : redis.createClient();
-//{ url: process.env.REDIS_URL }
+const redisDB =  redis.createClient();
+//{ url: process.env.REDIS_URL } REDIS_URL ? redis.createClient(REDIS_URL) :
 
 // Selects a different database while in the testing environment
 if (NODE_ENV === 'test') {

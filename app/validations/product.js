@@ -2,15 +2,22 @@ import Joi from '@hapi/joi';
 import JoiDate from '@hapi/joi-date'
 import { stringCheck, validateDateSchema } from './staff';
 
-const JoiBase = Joi.extend(JoiDate)
 
-const productResultSchema = Joi.object({
-  date_sampled: validateDateSchema('date_sampled'),
-  date_received: validateDateSchema('date_received'),
-  report_no: stringCheck(Joi, 'report_No'),
-  product_name: stringCheck(Joi,'product_name')
+const productSchema = Joi.object({
+  productName: stringCheck(Joi, 'productName')
 }).options({
   allowUnknown: true,
 });
 
-export default productResultSchema;
+
+const productTest = Joi.object({
+  analysis: stringCheck(Joi, 'analysis'),
+  test: stringCheck(Joi, 'test'),
+  categoryId: stringCheck(Joi, 'category')
+}).options({
+  allowUnknown: true,
+});
+
+let productTestSchema = Joi.array().items(productTest)
+
+export  { productTestSchema, productSchema};

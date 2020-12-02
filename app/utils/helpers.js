@@ -50,7 +50,9 @@ class Helper {
       return id;
     }
     Helper.regenerateUniquePassword(i, query);
-  }
+  };
+
+  
 
   /**
   * This is used for generating a hash and a salt from a user's password.

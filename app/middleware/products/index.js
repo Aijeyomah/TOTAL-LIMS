@@ -1,3 +1,3 @@
-import BlendProductMiddleware from './blend.products';
+import ProductMiddleware from './product';
 
-export  {BlendProductMiddleware};
+export  { ProductMiddleware };
