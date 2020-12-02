@@ -1,4 +1,3 @@
-import { updateComputedPropertyName } from 'typescript';
 import db, {redisDB} from '../db';
 import query from '../db/queries/product';
 import { Helper, constants, DBError } from '../utils';
