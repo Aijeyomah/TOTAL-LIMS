@@ -72,7 +72,7 @@ class AuthController {
         message: CREATE_STAFF_SUCCESSFULLY,
         code: 201
        });
-      await sendDynamicMail(msg);
+     return await sendDynamicMail(msg);
     } catch (error) {
       next(errorResponse(req, res, genericErrors.errorCreatingStaff));
     }

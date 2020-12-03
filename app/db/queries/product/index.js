@@ -51,11 +51,48 @@ export default {
         SELECT 
             * 
         FROM 
-            products
+            products 
         WHERE
             product_name = $1
     
+    `,
+    getAllProductTest: `
+        SELECT 
+            test.id,
+            test.test
+        FROM
+            product_tests test
+        INNER JOIN 
+            category_test ON test.id = category_test.test_id
+        WHERE
+            category_test.category_id = $1
+    `,
+    getAllProductAndSpec: `
+        SELECT
+	products.id,
+	products.product_name,
+	(
+		SELECT
+			(
+				SELECT
+					ARRAY_TO_JSON(ARRAY_AGG(ROW_TO_JSON(spec_res))) specification
+				FROM (
+					SELECT
+						test.test,
+						spec.product_spec
+					FROM
+						product_specification spec
+						INNER JOIN product_tests test ON test.id = spec.test_id
+					WHERE
+						spec.product_id = products.id) AS spec_res))
+		FROM
+			products
     `
+//get all product
+// edit product
+// delete product
+// search for a product
+    
        
 };
 

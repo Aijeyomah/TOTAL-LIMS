@@ -23,7 +23,6 @@ class ProductModel {
    */
     constructor(options) {
         this.id = Helper.generateId(),
-        //this.spec_id = Helper.generateId(), 
         this.product_name = options.productName,
         this.category_id = options.categoryId,
         this.specification = options.specification
@@ -42,7 +41,7 @@ class ProductModel {
             const productSpec = this.specification.map(
             ({  testId,
                 productSpec
-              }) => {
+            }) => {
                 const spec_id = Helper.generateId();
                 t.none(createProductSpecification, [
                 spec_id,
