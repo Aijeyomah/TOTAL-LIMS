@@ -34,6 +34,7 @@ export default {
   CREATE_PRODUCT_TEST: "product test created successfully",
   CREATE_PRODUCT: "product created successfully",
   FETCH_PRODUCTS_SUCCESSFULLY: "fetch product successfully",
+  FETCH_TEST_SUCCESSFULLY: "fetch test successfully",
   SAVE_PRODUCT_RESULT_SUCCESSFULLY: "product result successfully saved",
   ERROR_SAVING_PRODUCT_RESULT: "Error saving product result",
   RETRIEVE_ALL_PRODUCTS_FAIL: "fetch product failed",

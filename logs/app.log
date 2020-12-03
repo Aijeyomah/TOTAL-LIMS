@@ -762,3 +762,27 @@
 [Wed, 02 Dec 2020 00:16:26 GMT] - [32minfo[39m: Redis server is running
 [Wed, 02 Dec 2020 01:14:20 GMT] - [32minfo[39m: Lims system is running on PORT 3000
 [Wed, 02 Dec 2020 01:14:20 GMT] - [32minfo[39m: Redis server is running
+[Thu, 03 Dec 2020 14:15:28 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Thu, 03 Dec 2020 14:15:28 GMT] - [32minfo[39m: Redis server is running
+[Thu, 03 Dec 2020 14:17:56 GMT] - [31merror[39m: ApiError - 401 - Access denied,a valid access token is required - /api/v1/admin/products/test/3 - GET - ::1
+[Thu, 03 Dec 2020 14:18:08 GMT] - [31merror[39m: ApiError - 400 - productName should is required - /api/v1/admin/products/test/3 - GET - ::1
+[Thu, 03 Dec 2020 14:18:35 GMT] - [31merror[39m: ApiError - 400 - productName should is required - /api/v1/admin/products/test/3 - GET - ::1
+[Thu, 03 Dec 2020 14:18:37 GMT] - [31merror[39m: ApiError - 400 - productName should is required - /api/v1/admin/products/test/3 - GET - ::1
+[Thu, 03 Dec 2020 14:18:38 GMT] - [31merror[39m: ApiError - 400 - productName should is required - /api/v1/admin/products/test/3 - GET - ::1
+[Thu, 03 Dec 2020 14:18:54 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Thu, 03 Dec 2020 14:18:54 GMT] - [32minfo[39m: Redis server is running
+[Thu, 03 Dec 2020 14:18:56 GMT] - [31merror[39m: ApiError - 401 - Error creating product - /api/v1/admin/products/test/3 - GET - ::1
+[Thu, 03 Dec 2020 14:19:43 GMT] - [31merror[39m: ApiError - 401 - Error creating product - /api/v1/admin/products/test/3 - GET - ::1
+[Thu, 03 Dec 2020 14:19:57 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Thu, 03 Dec 2020 14:19:57 GMT] - [32minfo[39m: Redis server is running
+[Thu, 03 Dec 2020 14:23:38 GMT] - [31merror[39m: ApiError - 401 - Access denied,a valid access token is required - /api/v1/admin/products/new-product - POST - ::1
+[Thu, 03 Dec 2020 14:34:39 GMT] - [31merror[39m: ApiError - 401 - Access denied,a valid access token is required - /api/v1/admin/products - GET - ::1
+[Thu, 03 Dec 2020 14:36:48 GMT] - [31merror[39m: ApiError - 401 - Access denied,a valid access token is required - /api/v1/admin/products/blend - GET - ::1
+[Thu, 03 Dec 2020 14:37:40 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Thu, 03 Dec 2020 14:37:40 GMT] - [32minfo[39m: Redis server is running
+[Thu, 03 Dec 2020 14:46:47 GMT] - [31merror[39m: ApiError - 401 - Access denied,a valid access token is required - /api/v1/admin/products/product-test - POST - ::1
+[Thu, 03 Dec 2020 14:47:08 GMT] - [31merror[39m: ApiError - 400 - "value" must be an array - /api/v1/admin/products/product-test - POST - ::1
+[Thu, 03 Dec 2020 14:49:18 GMT] - [31merror[39m: ApiError - 400 - "value" must be an array - /api/v1/admin/products/product-test - POST - ::1
+[Thu, 03 Dec 2020 14:49:28 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Thu, 03 Dec 2020 14:49:28 GMT] - [32minfo[39m: Redis server is running
+[Thu, 03 Dec 2020 14:50:24 GMT] - [31merror[39m: ApiError - 400 - analysis field parameter must be a string - /api/v1/admin/products/product-test - POST - ::1

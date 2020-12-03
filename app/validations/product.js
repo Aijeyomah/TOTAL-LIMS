@@ -10,7 +10,7 @@ const productSchema = Joi.object({
 });
 
 
-const productTest = Joi.object({
+const productTestSchema = Joi.object({
   analysis: stringCheck(Joi, 'analysis'),
   test: stringCheck(Joi, 'test'),
   categoryId: stringCheck(Joi, 'category')
@@ -18,6 +18,6 @@ const productTest = Joi.object({
   allowUnknown: true,
 });
 
-let productTestSchema = Joi.array().items(productTest)
+//let productTestSchema = Joi.array().items(productTest)
 
 export  { productTestSchema, productSchema};
