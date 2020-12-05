@@ -87,7 +87,52 @@ export default {
 						spec.product_id = products.id) AS spec_res))
 		FROM
 			products
+    `,
+    getAllProductById: `
+        SELECT 
+            * 
+        FROM 
+            products 
+        WHERE
+            id = $1
+    
+    `,
+    editProduct: `
+        UPDATE 
+            products
+        SET 
+            product_name = $1
+        WHERE 
+            id = $1
+        RETURNING *
+    `,
+    editProductSpec: `
+        UPDATE
+            product_specification
+        SET
+            product_spec = $1
+        WHERE
+            product_id = $2
+        AND
+            test_id = $3  
+        RETURNING *    
+    `,
+    checkIfTestBelongsToProduct: `
+       SELECT 
+            *
+        FROM 
+            product_specification
+        WHERE
+            product_id = $1
+    `,
+    getAllCategory: `
+        SELECT 
+            *
+        FROM 
+            products_cat
     `
+
+
 //get all product
 // edit product
 // delete product

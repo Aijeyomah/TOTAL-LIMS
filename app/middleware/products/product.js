@@ -5,9 +5,9 @@ import ApiError from '../../utils/error/api.error';
 import constants from '../../utils/constants';
 import { productTestSchema, productSchema} from '../../validations/product';
 
-const { PRODUCT_TEST_CONFLICT, ERROR_FETCHING_PRODUCT_TEST, PRODUCT_CONFLICT , ERROR_FETCHING_PRODUCT} = constants;
+const { PRODUCT_TEST_CONFLICT, ERROR_FETCHING_PRODUCT_TEST, PRODUCT_CONFLICT , ERROR_FETCHING_PRODUCT, ANALYSIS_SPEC_CONFLICT} = constants;
 const { errorResponse } = Helper;
-const { getProductTestByTest, getProductByProductName } = query;
+const { getProductTestByTest, getProductByProductName, checkIfTestBelongsToProduct } = query;
 
 class ProductMiddleware {
 
@@ -85,6 +85,29 @@ class ProductMiddleware {
         );
     }
   }
+  
+  static async checkIfSpecBelongToProduct(req, res, next) {
+    try {
+      const { id } = req.body;
+      const productSpec = await db.oneOrNone(checkIfTestBelongsToProduct, [id]);
+      if (!productSpec) {
+        return errorResponse(
+          req,
+          res,
+          new ApiError({ message: ANALYSIS_SPEC_CONFLICT, status: 409 })
+      )
+      }
+    } catch (e) {
+       e.status = ERROR_FETCHING_PRODUCT;
+        Helper.moduleErrLogMessager(e);
+        errorResponse(
+          req,
+          res,
+          new ApiError({ message: ERROR_FETCHING_PRODUCT , status: 400, errors: e.message})
+        );
+    }
+  };
+
 }
 
 export default ProductMiddleware;

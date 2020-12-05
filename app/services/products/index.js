@@ -3,8 +3,8 @@ import db, { redisDB } from "../../db";
 import { Helper, constants, DBError } from "../../utils";
 
 const { moduleErrLogMessager } = Helper;
-const { FETCH_PRODUCT_FAIL, UPDATE_PRODUCT_FAIL, DELETE_PRODUCT_FAIL } = constants;
-const { getAllProductAndSpec, getAllProductTest } = queries;
+const { FETCH_PRODUCT_FAIL,FETCH_CATEGORIES_FAIL, UPDATE_PRODUCT_FAIL, DELETE_PRODUCT_FAIL } = constants;
+const { getAllProductAndSpec, getAllProductTest, getAllCategory } = queries;
 /**
  * Contains a collection of service methods for managing the product resource on the app.
  *
@@ -55,5 +55,20 @@ class ProductServices {
             throw dbError;
         }
     }
-};
+
+    static async getAllProductCategory() {
+        try {
+            return await db.any(getAllCategory);
+        } catch (e) {
+            const dbError = new DBError({
+                message: e.message,
+                status: FETCH_CATEGORIES_FAIL,
+                errors: [],
+            });
+            moduleErrLogMessager(dbError);
+            throw dbError;
+        }
+        }
+    };
+
 export default ProductServices;

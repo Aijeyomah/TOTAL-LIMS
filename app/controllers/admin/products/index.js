@@ -6,8 +6,9 @@ import ProductTestModel from '../../../models/product.tests';
 import ProductModel from '../../../models/product';
 import ProductServices from '../../../services/products';
 
+const { getAllProductCategory, getAllTest } = ProductServices;
 const { successResponse, errorResponse } = Helper;
-const { CREATE_PRODUCT_TEST, CREATE_PRODUCT, FETCH_TEST_SUCCESSFULLY, FETCH_PRODUCTS_SUCCESSFULLY } = constants;
+const { CREATE_PRODUCT_TEST, CREATE_PRODUCT, FETCH_TEST_SUCCESSFULLY, FETCH_PRODUCTS_SUCCESSFULLY, FETCH_CATEGORIES_SUCCESSFULLY } = constants;
 
 /**
  * a collection of methods that deals with  products
@@ -57,15 +58,13 @@ class ProductController {
         code: 201,
       });
     } catch (error) {
-      console.log(error);
-      
       next(errorResponse(req, res, genericErrors.errorCreatingProduct));
     }
   }; 
 
   static async getAllProductTest(req, res, next){
        try {
-        const test = await ProductServices.getAllTest(req.params.categoryId);
+        const test = await getAllTest(req.params.categoryId);
         return successResponse(res, {
             message: FETCH_TEST_SUCCESSFULLY,
             data: test,
@@ -81,6 +80,19 @@ class ProductController {
         const test = await ProductServices.getAllProduct();
         return successResponse(res, {
             message: FETCH_PRODUCTS_SUCCESSFULLY,
+            data: test,
+            code: 201,
+        });
+       } catch (e) {
+        next(errorResponse(req, res, genericErrors.getProductError));
+    }
+  };
+
+  static async getAllCategory(req, res, next){
+       try {
+        const test = await getAllProductCategory();
+        return successResponse(res, {
+            message: FETCH_CATEGORIES_SUCCESSFULLY,
             data: test,
             code: 201,
         });

@@ -9,6 +9,6 @@ const router = Router();
 //router.use("/", );
 const { fetchAllStaff } = AuthController;
 
-router.get("/staff", authenticate, roleValidator,fetchAllStaff);
+router.get("/all", authenticate, roleValidator,fetchAllStaff);
 
 export default router;

@@ -786,3 +786,13 @@
 [Thu, 03 Dec 2020 14:49:28 GMT] - [32minfo[39m: Lims system is running on PORT 3000
 [Thu, 03 Dec 2020 14:49:28 GMT] - [32minfo[39m: Redis server is running
 [Thu, 03 Dec 2020 14:50:24 GMT] - [31merror[39m: ApiError - 400 - analysis field parameter must be a string - /api/v1/admin/products/product-test - POST - ::1
+[Fri, 04 Dec 2020 10:11:39 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Fri, 04 Dec 2020 10:11:39 GMT] - [32minfo[39m: Redis server is running
+[Sat, 05 Dec 2020 12:42:40 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sat, 05 Dec 2020 12:42:40 GMT] - [32minfo[39m: Redis server is running
+[Sat, 05 Dec 2020 13:01:40 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sat, 05 Dec 2020 13:01:40 GMT] - [32minfo[39m: Redis server is running
+[Sat, 05 Dec 2020 13:01:43 GMT] - [31merror[39m: FETCH_CATEGORIES_FAIL - DBError - relation "product_cat" does not exist
+[Sat, 05 Dec 2020 13:01:43 GMT] - [31merror[39m: ApiError - 500 - fetch product failed - /api/v1/admin/products/categories - GET - ::1
+[Sat, 05 Dec 2020 13:02:31 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sat, 05 Dec 2020 13:02:31 GMT] - [32minfo[39m: Redis server is running

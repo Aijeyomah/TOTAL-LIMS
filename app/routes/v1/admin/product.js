@@ -5,7 +5,7 @@ import ProductController from '../../../controllers/admin/products';
 
 const { roleValidator, roleAccessValidator } = RoleMiddleware;
 const { validateProductTestFields, checkIfProductTest, checkIfProductExist, validateProductFields } = ProductMiddleware;
-const { productTest, product , getAllProductTest, getAllProduct} = ProductController;
+const { productTest, product , getAllProductTest, getAllProduct, getAllCategory} = ProductController;
 const router = Router();
 
 router.post(
@@ -36,6 +36,11 @@ router.get(
     getAllProduct
 );
 
+router.get(
+    '/categories',
+    roleValidator,
+    getAllCategory
+);
 
 
 
