@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import StaffController from '../../../controllers/admin/auth';
-import { AuthMiddleware, RoleMiddleware } from "../../../middleware/auth";
+import { AuthMiddleware, RoleMiddleware } from '../../../middleware/auth';
 
 const router = Router();
 const { StaffLoginEmailValidator, validateLoginSchema, checkIfStaffExist, validateCreateStaffProfile, authenticate, generatePassword } = AuthMiddleware;

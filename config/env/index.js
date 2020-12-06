@@ -15,8 +15,6 @@ const currentEnv = {
   test
 }[NODE_ENV || 'production'];
 
-
-
 export default {
   ...process.env,
   ...currentEnv,

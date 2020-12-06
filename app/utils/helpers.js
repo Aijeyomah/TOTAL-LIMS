@@ -37,7 +37,6 @@ class Helper {
   static generateUniquePassword() {
     return `${Math.random().toString(32).substr(2, 9)}`;
   }
-  
 
   static generateUniqueId(i) {
     return `${i}/${Math.random().toString(32).substr(2, 9)}`;
@@ -50,9 +49,7 @@ class Helper {
       return id;
     }
     Helper.regenerateUniquePassword(i, query);
-  };
-
-  
+  }
 
   /**
   * This is used for generating a hash and a salt from a user's password.

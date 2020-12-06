@@ -21,17 +21,15 @@ class RoleMiddleware {
       message: constants.INVALID_ROLE_PARAMETER,
       status: 400,
     }));
-  };
+  }
 
   static roleAccessValidator(roles, position = 'data') {
-    return (req, res, next) => (roles.includes(req[position].role) 
+    return (req, res, next) => (roles.includes(req[position].role)
       ? next() : errorResponse(req, res, new ApiError({
         status: 403,
         message: constants.ROLE_NOT_SUFFICIENT
-      })));  
-  };
-
+      })));
+  }
 }
-
 
 export default RoleMiddleware;

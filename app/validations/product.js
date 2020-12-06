@@ -1,14 +1,12 @@
 import Joi from '@hapi/joi';
-import JoiDate from '@hapi/joi-date'
+import JoiDate from '@hapi/joi-date';
 import { stringCheck, validateDateSchema } from './staff';
-
 
 const productSchema = Joi.object({
   productName: stringCheck(Joi, 'productName')
 }).options({
   allowUnknown: true,
 });
-
 
 const productTestSchema = Joi.object({
   analysis: stringCheck(Joi, 'analysis'),
@@ -18,6 +16,6 @@ const productTestSchema = Joi.object({
   allowUnknown: true,
 });
 
-//let productTestSchema = Joi.array().items(productTest)
+// let productTestSchema = Joi.array().items(productTest)
 
-export  { productTestSchema, productSchema};
+export { productTestSchema, productSchema };

@@ -2,7 +2,7 @@ import { Helper, constants, genericErrors, ApiError } from '../../../utils';
 import { StaffModel } from '../../../models';
 import userQuery from '../../../db/queries/auth';
 import sendDynamicMail from '../../../services/email';
-import StaffServices from '../../../services/staff'
+import StaffServices from '../../../services/staff';
 
 const { errorCreatingStaff } = genericErrors;
 const {
@@ -20,7 +20,7 @@ const {
   WELCOME_EMAIL_TEMPLATE_ID,
   notification_sender
 } = constants;
-const {getAllStaff} = StaffServices
+const { getAllStaff } = StaffServices;
 /**
  *A collection of methods that controls and issues the authenticity of a staff
  *
@@ -38,18 +38,17 @@ class AuthController {
    * @memberof AuthController
    */
   static async login(req, res) {
-      const { user, body } = req;
-      const isAuthenticatedUser = compareHash(
-        body.password,
-        user.password,
-        user.salt
-      );
-      if (!isAuthenticatedUser) {
-        return errorResponse(req, res, genericErrors.inValidLogin);
-      }
-      const data = addTokenToData(user, true);
-      successResponse(res, { data, message: LOGIN_USER_SUCCESSFULLY , code: 201});
-   
+    const { user, body } = req;
+    const isAuthenticatedUser = compareHash(
+      body.password,
+      user.password,
+      user.salt
+    );
+    if (!isAuthenticatedUser) {
+      return errorResponse(req, res, genericErrors.inValidLogin);
+    }
+    const data = addTokenToData(user, true);
+    successResponse(res, { data, message: LOGIN_USER_SUCCESSFULLY, code: 201 });
   }
 
   static async createStaff(req, res, next) {
@@ -67,12 +66,12 @@ class AuthController {
         templateId: WELCOME_EMAIL_TEMPLATE_ID,
         dynamic_template_data,
       };
-       successResponse(res, {
+      successResponse(res, {
         data: { id, first_name, last_name, created_at, igg, email },
         message: CREATE_STAFF_SUCCESSFULLY,
         code: 201
-       });
-     return await sendDynamicMail(msg);
+      });
+      return await sendDynamicMail(msg);
     } catch (error) {
       next(errorResponse(req, res, genericErrors.errorCreatingStaff));
     }
@@ -80,12 +79,11 @@ class AuthController {
 
   static async fetchAllStaff(req, res, next) {
     try {
-      const data = await getAllStaff()
-      successResponse(res, { data, message: '', code: 200});
-
+      const data = await getAllStaff();
+      successResponse(res, { data, message: '', code: 200 });
     } catch (error) {
       next(errorResponse(req, res, genericErrors.staffError));
     }
-  };
-};
+  }
+}
 export default AuthController;

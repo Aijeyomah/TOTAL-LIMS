@@ -20,7 +20,6 @@ const appConfig = (app) => {
   app.use(json());
   // adds middleware that parses requests with x-www-form-urlencoded data encoding
   app.use(urlencoded({ extended: true }));
-  
 
   app.use(v1, apiV1Routes);
 

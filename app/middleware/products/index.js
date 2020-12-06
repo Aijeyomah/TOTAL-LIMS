@@ -1,3 +1,3 @@
 import ProductMiddleware from './product';
 
-export  { ProductMiddleware };
+export { ProductMiddleware };

@@ -1,12 +1,10 @@
 import JoiBase from '@hapi/joi';
-import JoiDate from '@hapi/joi-date'
+import JoiDate from '@hapi/joi-date';
 // import { emailSchema, validateDateSchema } from './staff';
 
-const Joi = JoiBase.extend(JoiDate)
+const Joi = JoiBase.extend(JoiDate);
 
-
-
-export const stringCheck = (joiObject,field, min, max) => (
+export const stringCheck = (joiObject, field, min, max) => (
   joiObject.string()
     .trim()
     .min(2)
@@ -18,9 +16,10 @@ export const stringCheck = (joiObject,field, min, max) => (
       'string.max': `${field} should not be more than ${max} characters`,
       'string.min': `${field} should not be less than ${min} characters`,
       'any.required': `${field} should is required`
-    }).options({
-  allowUnknown: true,
-})
+    })
+    .options({
+      allowUnknown: true,
+    })
 );
 
 export const validateDateSchema = (field) => Joi.date()
@@ -29,7 +28,7 @@ export const validateDateSchema = (field) => Joi.date()
     'any.required': `The ${field} is required`,
     'date.base': `The ${field}  is either not a date or could not be cast to a date from a string or a number.`,
     'date.format': `The ${field} does not match the required format`
-  })
+  });
 
 export const changePasswordSchema = Joi.object({
   password: Joi.string()

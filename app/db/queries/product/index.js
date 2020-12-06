@@ -1,32 +1,32 @@
 export default {
 
-   createProduct: `INSERT INTO products (
+  createProduct: `INSERT INTO products (
         id,
         category_id,
         product_name
     ) VALUES($1, $2, $3) RETURNING *`,
-    
-    createProductTest: `INSERT INTO product_tests (
+
+  createProductTest: `INSERT INTO product_tests (
         id,
         method,
         test,
         unit
     ) VALUES($1, $2, $3, $4) RETURNING *`,
 
-    createCategoryTest: `INSERT INTO category_test(
+  createCategoryTest: `INSERT INTO category_test(
         cat_test_id,
         category_id,
         test_id
     ) VALUES($1, $2, $3) RETURNING *`,
 
-    createProductSpecification: `INSERT INTO product_specification(
+  createProductSpecification: `INSERT INTO product_specification(
         spec_id,
         product_id,
         test_id,
         product_spec
     ) VALUES($1, $2, $3, $4)`,
 
-    insertProductAnalysisResult: `INSERT INTO product_test_result(
+  insertProductAnalysisResult: `INSERT INTO product_test_result(
         id,
         product_id,
         test_id,
@@ -38,7 +38,7 @@ export default {
         report_no
     ) VALUES($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING *`,
 
-    getProductTestByTest: `
+  getProductTestByTest: `
         SELECT 
             * 
         FROM 
@@ -47,7 +47,7 @@ export default {
             test = $1
     
     `,
-    getProductByProductName: `
+  getProductByProductName: `
         SELECT 
             * 
         FROM 
@@ -56,7 +56,7 @@ export default {
             product_name = $1
     
     `,
-    getAllProductTest: `
+  getAllProductTest: `
         SELECT 
             test.id,
             test.test
@@ -67,7 +67,7 @@ export default {
         WHERE
             category_test.category_id = $1
     `,
-    getAllProductAndSpec: `
+  getAllProductAndSpec: `
         SELECT
 	products.id,
 	products.product_name,
@@ -78,7 +78,8 @@ export default {
 					ARRAY_TO_JSON(ARRAY_AGG(ROW_TO_JSON(spec_res))) specification
 				FROM (
 					SELECT
-						test.test,
+                        test.test,
+                        test.test_name,
 						spec.product_spec
 					FROM
 						product_specification spec
@@ -86,9 +87,12 @@ export default {
 					WHERE
 						spec.product_id = products.id) AS spec_res))
 		FROM
-			products
+            products
+        WHERE
+            category_id = $1
+        
     `,
-    getAllProductById: `
+  getAllProductById: `
         SELECT 
             * 
         FROM 
@@ -97,7 +101,7 @@ export default {
             id = $1
     
     `,
-    editProduct: `
+  editProductName: `
         UPDATE 
             products
         SET 
@@ -106,18 +110,20 @@ export default {
             id = $1
         RETURNING *
     `,
-    editProductSpec: `
+  
+  editProductSpec: `
         UPDATE
             product_specification
         SET
             product_spec = $1
         WHERE
             product_id = $2
-        AND
             test_id = $3  
+        AND
+            spec_id = $4
         RETURNING *    
     `,
-    checkIfTestBelongsToProduct: `
+  checkIfTestBelongsToProduct: `
        SELECT 
             *
         FROM 
@@ -125,19 +131,20 @@ export default {
         WHERE
             product_id = $1
     `,
-    getAllCategory: `
+  getAllCategory: `
         SELECT 
             *
         FROM 
             products_cat
-    `
+    `,
+  updateProductSpec: (values) => `
+      INSERT INTO product_vendors(
+          item_number,
+          vendor_id,
+          is_default
+      )
+       VALUES ${values}
+      RETURNING *`,
+  
 
-
-//get all product
-// edit product
-// delete product
-// search for a product
-    
-       
 };
-

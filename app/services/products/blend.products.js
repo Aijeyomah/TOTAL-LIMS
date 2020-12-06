@@ -110,7 +110,7 @@
 //         data.Mg,
 //         data.id,
 //       ]);
-       
+
 //       await redisDB.hmsetAsync(blendProduct(data.id), data);
 //       return data;
 //     } catch (e) {
@@ -140,6 +140,5 @@
 //     }
 //     }
 // };
-
 
 // export default BlendProductService;

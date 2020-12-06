@@ -2,7 +2,7 @@ import promise from 'bluebird';
 import pg from 'pg-promise';
 import config from '../../../config/env';
 
-const { DATABASE_URL } = config
+const { DATABASE_URL } = config;
 
 const options = {
   promiseLib: promise

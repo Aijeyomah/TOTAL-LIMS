@@ -1,5 +1,5 @@
 export default {
-    REDIS_KEYS: {
+  REDIS_KEYS: {
     blendProducts: 'products',
     blendProduct: (productId) => `products:blendProduct${productId}`,
     blendProductResultKey: 'productsResult',

@@ -24,7 +24,7 @@ class StaffService {
 
   static async getAllStaff() {
     return db.manyOrNone(fetchAllStaff);
-  };
+  }
 }
 
 export default StaffService;

@@ -8,7 +8,6 @@ promisifyAll(redis);
 
 const { NODE_ENV, REDIS_URL } = config;
 
-
 // Creates an instance of a Redis client.
 // const redisDB =  redis.createClient();
 const redisDB = REDIS_URL ? redis.createClient(REDIS_URL) : redis.createClient();
