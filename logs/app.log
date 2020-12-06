@@ -798,3 +798,13 @@
 [Sat, 05 Dec 2020 13:02:31 GMT] - [32minfo[39m: Redis server is running
 [Sun, 06 Dec 2020 20:17:35 GMT] - [32minfo[39m: Lims system is running on PORT 3000
 [Sun, 06 Dec 2020 20:17:35 GMT] - [32minfo[39m: Redis server is running
+[Sun, 06 Dec 2020 20:19:31 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 06 Dec 2020 20:19:31 GMT] - [32minfo[39m: Redis server is running
+[Sun, 06 Dec 2020 20:20:48 GMT] - [31merror[39m: FETCH PRODUCT FAIL - DBError - column test.test_name does not exist
+[Sun, 06 Dec 2020 20:20:48 GMT] - [31merror[39m: ApiError - 500 - fetch product failed - /api/v1/admin/products/all - GET - ::1
+[Sun, 06 Dec 2020 20:24:38 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 06 Dec 2020 20:24:38 GMT] - [32minfo[39m: Redis server is running
+[Sun, 06 Dec 2020 20:24:43 GMT] - [31merror[39m: FETCH PRODUCT FAIL - DBError - column test.test_name does not exist
+[Sun, 06 Dec 2020 20:24:43 GMT] - [31merror[39m: ApiError - 500 - fetch product failed - /api/v1/admin/products/all - GET - ::1
+[Sun, 06 Dec 2020 20:24:54 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sun, 06 Dec 2020 20:24:54 GMT] - [32minfo[39m: Redis server is running

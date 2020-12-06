@@ -79,7 +79,7 @@ export default {
 				FROM (
 					SELECT
                         test.test,
-                        test.test_name,
+                        -- test.test_name,
 						spec.product_spec
 					FROM
 						product_specification spec
