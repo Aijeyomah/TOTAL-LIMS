@@ -37,7 +37,7 @@ class ProductModel {
             productSpec
           }) => {
             const spec_id = Helper.generateId();
-            t.none(createProductSpecification, [
+            t.any(createProductSpecification, [
               spec_id,
               this.id,
               testId,

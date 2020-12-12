@@ -1,14 +1,28 @@
-import ProductTest from '../../../models/product.tests';
-import Helper from '../../../utils/helpers';
-import constants from '../../../utils/constants';
-import { genericErrors } from '../../../utils';
-import ProductTestModel from '../../../models/product.tests';
-import ProductModel from '../../../models/product';
-import ProductServices from '../../../services/products';
+import ProductTest from "../../../models/product.tests";
+import Helper from "../../../utils/helpers";
+import constants from "../../../utils/constants";
+import { genericErrors } from "../../../utils";
+import ProductTestModel from "../../../models/product.tests";
+import ProductModel from "../../../models/product";
+import ProductServices from "../../../services/products";
 
-const { getAllProductCategory, getAllTest } = ProductServices;
+const {
+  getAllProductCategory,
+  getAllTest,
+  editProductSpec,
+  deleteProduct,
+  searchProduct
+} = ProductServices;
 const { successResponse, errorResponse } = Helper;
-const { CREATE_PRODUCT_TEST, CREATE_PRODUCT, FETCH_TEST_SUCCESSFULLY, FETCH_PRODUCTS_SUCCESSFULLY, FETCH_CATEGORIES_SUCCESSFULLY } = constants;
+const {
+  CREATE_PRODUCT_TEST,
+  CREATE_PRODUCT,
+  FETCH_TEST_SUCCESSFULLY,
+  FETCH_PRODUCTS_SUCCESSFULLY,
+  FETCH_CATEGORIES_SUCCESSFULLY,
+  UPDATE_PRODUCT_SPEC_SUCCESSFULLY,
+  DELETE_PRODUCT_SUCCESSFULLY,
+} = constants;
 
 /**
  * a collection of methods that deals with  products
@@ -100,6 +114,47 @@ class ProductController {
       next(errorResponse(req, res, genericErrors.getProductError));
     }
   }
+
+  static async editProductSpecification(req, res, next) {
+    try {
+      const spec = await editProductSpec(req.body, req.params.productId);
+      return successResponse(res, {
+        message: UPDATE_PRODUCT_SPEC_SUCCESSFULLY,
+        data: spec,
+        code: 201,
+      });
+    } catch (e) {
+      next(errorResponse(req, res, genericErrors.updateProductSpecError));
+    }
+  }
+
+  static async deleteProduct(req, res, next) {
+    try {
+      await deleteProduct(req.params.id);
+      return successResponse(res, {
+        message: DELETE_PRODUCT_SUCCESSFULLY,
+        code: 201,
+      });
+    } catch (e) {
+      next(errorResponse(req, res, genericErrors.deleteProduct));
+    }
+  };
+  
+  static async searchProducts(req, res, next) {
+    try {
+      const { product_name, created_at } = req.query;
+      const { category_id } = req.params;
+     const product =  await searchProduct(category_id, product_name, created_at);
+     
+      return successResponse(res, {
+        message: FETCH_PRODUCTS_SUCCESSFULLY,
+        data: product,
+        code: 201,
+      });
+    } catch (e) {
+      next(errorResponse(req, res, genericErrors.getProductError));
+    }
+  };
 }
 
 export default ProductController;

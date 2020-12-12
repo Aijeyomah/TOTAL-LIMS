@@ -3,9 +3,9 @@ import { AuthMiddleware, RoleMiddleware } from '../../../middleware/auth';
 import { ProductMiddleware } from '../../../middleware/products';
 import ProductController from '../../../controllers/admin/products';
 
-const { roleValidator, roleAccessValidator } = RoleMiddleware;
-const { validateProductTestFields, checkIfProductTest, checkIfProductExist, validateProductFields } = ProductMiddleware;
-const { productTest, product, getAllProductTest, getAllProduct, getAllCategory } = ProductController;
+const { roleValidator } = RoleMiddleware;
+const { validateProductTestFields, checkIfProductTest, checkIfProductExist, validateProductFields, validateProductSpecFields, checkIfSpecBelongToProduct } = ProductMiddleware;
+const { productTest, product, getAllProductTest, getAllProduct, getAllCategory, editProductSpecification, deleteProduct, searchProducts } = ProductController;
 const router = Router();
 
 router.post(
@@ -40,6 +40,29 @@ router.get(
   '/categories',
   roleValidator,
   getAllCategory
+);
+
+router.put(
+  '/categories/:productId',
+  roleValidator,
+  validateProductSpecFields,
+  checkIfSpecBelongToProduct,
+  editProductSpecification,
+  
+);
+
+router.delete(
+  '/:id/product',
+  roleValidator,
+  checkIfProductExist,
+  deleteProduct
+);
+
+router.get(
+  '/:category_id/product',
+  roleValidator,
+  checkIfProductExist,
+  searchProducts
 );
 
 export default router;

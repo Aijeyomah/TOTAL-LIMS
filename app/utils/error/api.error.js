@@ -22,4 +22,7 @@ export default class ApiError extends ModuleError {
     this.message = options.message || INTERNAL_SERVER_ERROR;
     this.status = options.status || 500;
   }
+  dynamicErrors(id) {
+    return `Incorrect ${id}`
+  }
 }

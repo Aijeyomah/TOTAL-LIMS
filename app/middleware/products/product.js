@@ -1,13 +1,28 @@
-import db from '../../db';
-import query from '../../db/queries/product';
-import Helper from '../../utils/helpers';
-import ApiError from '../../utils/error/api.error';
-import constants from '../../utils/constants';
-import { productTestSchema, productSchema } from '../../validations/product';
+import db from "../../db";
+import query from "../../db/queries/product";
+import Helper from "../../utils/helpers";
+import ApiError from "../../utils/error/api.error";
+import constants from "../../utils/constants";
+import {
+  productTestSchema,
+  productSchema,
+  updateProductSpecSchema,
+} from "../../validations/product";
+import { error } from "winston";
 
-const { PRODUCT_TEST_CONFLICT, ERROR_FETCHING_PRODUCT_TEST, PRODUCT_CONFLICT, ERROR_FETCHING_PRODUCT, ANALYSIS_SPEC_CONFLICT } = constants;
+const {
+  PRODUCT_TEST_CONFLICT,
+  ERROR_FETCHING_PRODUCT_TEST,
+  PRODUCT_CONFLICT,
+  ERROR_FETCHING_PRODUCT,
+  ANALYSIS_SPEC_CONFLICT,
+} = constants;
 const { errorResponse } = Helper;
-const { getProductTestByTest, getProductByProductName, checkIfTestBelongsToProduct } = query;
+const {
+  getProductTestByTest,
+  getProductByProductName,
+  checkIfTestBelongsToProduct,
+} = query;
 
 class ProductMiddleware {
   static async validateProductTestFields(req, res, next) {
@@ -36,10 +51,25 @@ class ProductMiddleware {
     }
   }
 
+  static async validateProductSpecFields(req, res, next) {
+    try {
+      await updateProductSpecSchema.validateAsync(req.body);
+      next();
+    } catch (e) {
+      const apiError = new ApiError({
+        status: 400,
+        message: e.details[0].message,
+      });
+      errorResponse(req, res, apiError);
+    }
+  }
+
   static async checkIfProductTest(req, res, next) {
     try {
       const { analysis } = req.body;
-      const test = analysis.map(({ test }) => db.oneOrNone(getProductTestByTest, [test]));
+      const test = analysis.map(({ test }) =>
+        db.oneOrNone(getProductTestByTest, [test])
+      );
       const result = await Promise.all(test);
       if (result[0]) {
         return errorResponse(
@@ -56,7 +86,11 @@ class ProductMiddleware {
       errorResponse(
         req,
         res,
-        new ApiError({ message: ERROR_FETCHING_PRODUCT_TEST, status: 400, errors: e.message })
+        new ApiError({
+          message: ERROR_FETCHING_PRODUCT_TEST,
+          status: 400,
+          errors: e.message,
+        })
       );
     }
   }
@@ -64,7 +98,9 @@ class ProductMiddleware {
   static async checkIfProductExist(req, res, next) {
     try {
       const { productName } = req.body;
-      const product = await db.oneOrNone(getProductByProductName, [productName]);
+      const product = await db.oneOrNone(getProductByProductName, [
+        productName,
+      ]);
       if (product) {
         return errorResponse(
           req,
@@ -79,31 +115,36 @@ class ProductMiddleware {
       errorResponse(
         req,
         res,
-        new ApiError({ message: ERROR_FETCHING_PRODUCT, status: 400, errors: e.message })
+        new ApiError({
+          message: ERROR_FETCHING_PRODUCT,
+          status: 400,
+          errors: e.message,
+        })
       );
     }
   }
 
   static async checkIfSpecBelongToProduct(req, res, next) {
     try {
-      const { id } = req.body;
-      const productSpec = await db.oneOrNone(checkIfTestBelongsToProduct, [id]);
-      if (!productSpec) {
-        return errorResponse(
-          req,
-          res,
-          new ApiError({ message: ANALYSIS_SPEC_CONFLICT, status: 409 })
-        );
+      const { productSpecification } = req.body;
+      for (const spec of productSpecification) {
+        const result = await db.oneOrNone(checkIfTestBelongsToProduct, [spec.specId]);
+        if (!result) {
+          throw new Error(`specId: ${spec.specId} is invalid`);
+        }
       }
-      req.data = productSpec;
-      next()
+      next();
     } catch (e) {
       e.status = ERROR_FETCHING_PRODUCT;
       Helper.moduleErrLogMessager(e);
       errorResponse(
         req,
         res,
-        new ApiError({ message: ERROR_FETCHING_PRODUCT, status: 400, errors: e.message })
+        new ApiError({
+          message: ERROR_FETCHING_PRODUCT,
+          status: 400,
+          errors: e.message,
+        })
       );
     }
   }

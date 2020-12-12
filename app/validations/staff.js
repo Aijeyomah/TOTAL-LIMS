@@ -7,8 +7,8 @@ const Joi = JoiBase.extend(JoiDate);
 export const stringCheck = (joiObject, field, min, max) => (
   joiObject.string()
     .trim()
-    .min(2)
-    .max(30)
+    .min(1)
+    .max(50)
     .required()
     .messages({
       'string.base': `${field} field parameter must be a string`,

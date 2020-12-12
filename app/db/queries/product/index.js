@@ -18,7 +18,10 @@ export default {
         category_id,
         test_id
     ) VALUES($1, $2, $3) RETURNING *`,
-
+  
+    // createProductSpecification: (keys, constructValues) => {
+    //     `INSERT INTO table(${keys.join(",")}) VALUES` + constructValues;
+    // },
   createProductSpecification: `INSERT INTO product_specification(
         spec_id,
         product_id,
@@ -118,10 +121,15 @@ export default {
             product_spec = $1
         WHERE
             product_id = $2
-            test_id = $3  
         AND
-            spec_id = $4
+            spec_id = $3
         RETURNING *    
+    `,
+    deleteProduct: `
+        DELETE FROM
+            products
+        WHERE 
+            id = $1
     `,
   checkIfTestBelongsToProduct: `
        SELECT 
@@ -129,7 +137,7 @@ export default {
         FROM 
             product_specification
         WHERE
-            product_id = $1
+            spec_id = $1 
     `,
   getAllCategory: `
         SELECT 
@@ -137,14 +145,54 @@ export default {
         FROM 
             products_cat
     `,
-  updateProductSpec: (values) => `
-      INSERT INTO product_vendors(
-          item_number,
-          vendor_id,
-          is_default
-      )
-       VALUES ${values}
-      RETURNING *`,
+  
+  searchProductsQuery: `
+    SELECT
+	products.id,
+	products.product_name,
+	(
+		SELECT
+			(
+				SELECT
+					ARRAY_TO_JSON(ARRAY_AGG(ROW_TO_JSON(spec_res))) specification
+				FROM (
+					SELECT
+                        test.test,
+                        -- test.test_name,
+						spec.product_spec
+					FROM
+						product_specification spec
+						INNER JOIN product_tests test ON test.id = spec.test_id
+					WHERE
+						spec.product_id = products.id) AS spec_res))
+		FROM
+            products
+        WHERE
+            category_id = $1
+        AND 
+        (
+            products.product_name ILIKE $2
+            OR
+            products.created_at::text ILIKE $3
+        )
+    `,
+    insertAnalysisResult: `INSERT INTO product_test_result(
+        id, 
+        product_id,
+        test_id,
+        product_spec_result
+    )VALUES($1, $2, $3, $4) RETURNING *
+    `,
+    insertAnalysisResultDetails: `
+        id,
+        product_result_id,
+        remark,
+        source,
+        date_received,
+        date_sampled,
+        report_no
+    )VALUES($1, $2, $3, $4, $5, $6, $7) RETURNING *
+    `,
   
 
-};
+}

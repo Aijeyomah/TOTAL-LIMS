@@ -15,6 +15,8 @@ const {
   getAllCategory,
   editProductName,
   editProductSpec,
+  deleteProduct,
+  searchProductsQuery,
 } = queries;
 /**
  * Contains a collection of service methods for managing the product resource on the app.
@@ -43,7 +45,7 @@ class ProductServices {
       moduleErrLogMessager(dbError);
       throw dbError;
     }
-  };
+  }
 
   /**
      *
@@ -65,7 +67,7 @@ class ProductServices {
       moduleErrLogMessager(dbError);
       throw dbError;
     }
-  };
+  }
 
   static async getAllProductCategory() {
     try {
@@ -79,7 +81,7 @@ class ProductServices {
       moduleErrLogMessager(dbError);
       throw dbError;
     }
-  };
+  }
 
   static async editProductName(productName, id) {
     try {
@@ -93,18 +95,16 @@ class ProductServices {
       moduleErrLogMessager(dbError);
       throw dbError;
     }
-  };
+  }
 
-  static async editProductSpec(oldData, reqData) {
+  static async editProductSpec(reqData, ProductId) {
     try {
       const { productSpecification } = reqData;
-      const data = { ...oldData, ...reqData };
-      const product = productSpecification.map(
-        ({ product_spec, test_id, spec_id }) => {
-          db.any(editProductSpec, [product_spec, data.product_id, test_id, spec_id]);
-        }
-      );
-      return await Promise.all(product);
+      const product = productSpecification.map(({ productSpec, specId }) => {
+        return db.any(editProductSpec, [productSpec, ProductId, specId]);
+      });
+      const data = await Promise.all(product);
+      return data;
     } catch (e) {
       const dbError = new DBError({
         message: e.message,
@@ -115,6 +115,38 @@ class ProductServices {
       throw dbError;
     }
   }
-};
+
+  static async deleteProduct(id) {
+    try {
+      return await db.none(searchProducts, []);
+    } catch (e) {
+      const dbError = new DBError({
+        message: e.message,
+        status: FETCH_PRODUCT_FAIL,
+        errors: [],
+      });
+      moduleErrLogMessager(dbError);
+      throw dbError;
+    }
+  }
+
+  static async searchProduct(category_id, Product_name, created_at) {
+    try {
+      return await db.any(searchProductsQuery, [
+        category_id,
+        `%${Product_name}%`,
+          `%${created_at}%`
+      ]);
+    } catch (e) {
+      const dbError = new DBError({
+        message: e.message,
+        status: FETCH_PRODUCT_FAIL,
+        errors: [],
+      });
+      moduleErrLogMessager(dbError);
+      throw dbError;
+    }
+  }
+}
 
 export default ProductServices;
