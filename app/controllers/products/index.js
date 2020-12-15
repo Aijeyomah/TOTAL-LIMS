@@ -2,7 +2,6 @@ import ProductTest from '../../models/product.tests';
 import Helper from '../../utils/helpers';
 import constants from '../../utils/constants';
 import { genericErrors } from '../../utils';
-import ProductService from '../../services/products';
 import ProductAnalysis from '../../models/product.analysis.result';
 
 const { successResponse, errorResponse } = Helper;

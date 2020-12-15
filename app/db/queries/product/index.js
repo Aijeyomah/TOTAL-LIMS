@@ -1,5 +1,4 @@
 export default {
-
   createProduct: `INSERT INTO products (
         id,
         category_id,
@@ -18,10 +17,10 @@ export default {
         category_id,
         test_id
     ) VALUES($1, $2, $3) RETURNING *`,
-  
-    // createProductSpecification: (keys, constructValues) => {
-    //     `INSERT INTO table(${keys.join(",")}) VALUES` + constructValues;
-    // },
+
+  // createProductSpecification: (keys, constructValues) => {
+  //     `INSERT INTO table(${keys.join(",")}) VALUES` + constructValues;
+  // },
   createProductSpecification: `INSERT INTO product_specification(
         spec_id,
         product_id,
@@ -113,7 +112,7 @@ export default {
             id = $1
         RETURNING *
     `,
-  
+
   editProductSpec: `
         UPDATE
             product_specification
@@ -125,27 +124,38 @@ export default {
             spec_id = $3
         RETURNING *    
     `,
-    deleteProduct: `
+  deleteProduct: `
         DELETE FROM
             products
         WHERE 
             id = $1
     `,
   checkIfTestBelongsToProduct: `
-       SELECT 
+         SELECT 
             *
         FROM 
             product_specification
         WHERE
             spec_id = $1 
     `,
+  checkIfTestIsValid: `
+        SELECT 
+            *
+        FROM 
+            product_specification
+        WHERE
+            product_id = $1
+        AND  
+            test_id = $2
+    `,
+
   getAllCategory: `
         SELECT 
             *
         FROM 
             products_cat
     `,
-  
+
   searchProductsQuery: `
     SELECT
 	products.id,
@@ -176,23 +186,21 @@ export default {
             products.created_at::text ILIKE $3
         )
     `,
-    insertAnalysisResult: `INSERT INTO product_test_result(
+  insertAnalysisResult: `INSERT INTO product_test_result(
         id, 
         product_id,
+        product_result_id,
         test_id,
         product_spec_result
-    )VALUES($1, $2, $3, $4) RETURNING *
+    )VALUES($1, $2, $3, $4, $5) RETURNING *
     `,
-    insertAnalysisResultDetails: `
+  insertAnalysisResultDetails: `INSERT INTO product_result_details( 
         id,
-        product_result_id,
         remark,
         source,
         date_received,
         date_sampled,
         report_no
-    )VALUES($1, $2, $3, $4, $5, $6, $7) RETURNING *
+    )VALUES($1, $2, $3, $4, $5, $6) RETURNING *
     `,
-  
-
-}
+};

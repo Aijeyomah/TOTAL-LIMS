@@ -7,6 +7,7 @@ import {
   productTestSchema,
   productSchema,
   updateProductSpecSchema,
+  analysisResultSchema,
 } from "../../validations/product";
 import { error } from "winston";
 
@@ -22,6 +23,7 @@ const {
   getProductTestByTest,
   getProductByProductName,
   checkIfTestBelongsToProduct,
+  checkIfTestIsValid,
 } = query;
 
 class ProductMiddleware {
@@ -41,6 +43,19 @@ class ProductMiddleware {
   static async validateProductFields(req, res, next) {
     try {
       await productSchema.validateAsync(req.body);
+      next();
+    } catch (e) {
+      const apiError = new ApiError({
+        status: 400,
+        message: e.details[0].message,
+      });
+      errorResponse(req, res, apiError);
+    }
+  }
+
+  static async validateAnalysisResultFields(req, res, next) {
+    try {
+      await analysisResultSchema.validateAsync(req.body);
       next();
     } catch (e) {
       const apiError = new ApiError({
@@ -122,13 +137,39 @@ class ProductMiddleware {
         })
       );
     }
+  };
+
+  static async checkIfTestIsValid(req, res, next) {
+     try {
+           const { analysis } = req.body;
+           for (const test of analysis) {
+             const result = await db.oneOrNone(
+               checkIfTestIsValid,
+               [test.productId, test.testId]
+             );
+             if (!result) {
+               throw new Error(`TestId: ${test.testId} is invalid`);
+             }
+           }
+           next();
+         } catch (e) {
+      e.status = ERROR_FETCHING_PRODUCT_TEST;
+      Helper.moduleErrLogMessager(e);
+      errorResponse(req, res, new ApiError({
+          message: ERROR_FETCHING_PRODUCT_TEST,
+          status: 400,
+          errors: e.message,
+        }));
+    }
   }
 
   static async checkIfSpecBelongToProduct(req, res, next) {
     try {
       const { productSpecification } = req.body;
       for (const spec of productSpecification) {
-        const result = await db.oneOrNone(checkIfTestBelongsToProduct, [spec.specId]);
+        const result = await db.oneOrNone(checkIfTestBelongsToProduct, [
+          spec.specId,
+        ]);
         if (!result) {
           throw new Error(`specId: ${spec.specId} is invalid`);
         }

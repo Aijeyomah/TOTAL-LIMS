@@ -2358,3 +2358,238 @@
 [Sat, 12 Dec 2020 19:33:55 GMT] - [32minfo[39m: Redis server is running
 [Sat, 12 Dec 2020 20:36:22 GMT] - [32minfo[39m: Lims system is running on PORT 3000
 [Sat, 12 Dec 2020 20:36:22 GMT] - [32minfo[39m: Redis server is running
+[Mon, 14 Dec 2020 14:06:28 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 14 Dec 2020 14:06:28 GMT] - [32minfo[39m: Redis server is running
+[Mon, 14 Dec 2020 14:13:54 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 14 Dec 2020 14:13:54 GMT] - [32minfo[39m: Redis server is running
+[Mon, 14 Dec 2020 14:13:56 GMT] - [31merror[39m: ApiError - 400 - productAnalysisResult items is a required field - /api/v1/analysis/result - POST - ::1
+[Mon, 14 Dec 2020 14:14:34 GMT] - [31merror[39m: ApiError - 400 - productAnalysisResult items is a required field - /api/v1/analysis/result - POST - ::1
+[Mon, 14 Dec 2020 14:17:39 GMT] - [31merror[39m: ApiError - 400 - productAnalysisResult items is a required field - /api/v1/analysis/result - POST - ::1
+[Mon, 14 Dec 2020 14:18:00 GMT] - [31merror[39m: ApiError - 400 - productAnalysisResult items is a required field - /api/v1/analysis/result - POST - ::1
+[Mon, 14 Dec 2020 14:18:35 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 14 Dec 2020 14:18:35 GMT] - [32minfo[39m: Redis server is running
+[Mon, 14 Dec 2020 14:18:36 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 14 Dec 2020 14:18:36 GMT] - [32minfo[39m: Redis server is running
+[Mon, 14 Dec 2020 14:18:38 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 14 Dec 2020 14:18:38 GMT] - [32minfo[39m: Redis server is running
+[Mon, 14 Dec 2020 14:31:28 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 14 Dec 2020 14:31:28 GMT] - [32minfo[39m: Redis server is running
+[Mon, 14 Dec 2020 14:31:30 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 14 Dec 2020 14:31:30 GMT] - [32minfo[39m: Redis server is running
+[Mon, 14 Dec 2020 14:32:35 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 14 Dec 2020 14:32:35 GMT] - [32minfo[39m: Redis server is running
+[Mon, 14 Dec 2020 14:32:44 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 14 Dec 2020 14:32:44 GMT] - [32minfo[39m: Redis server is running
+[Mon, 14 Dec 2020 14:32:50 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 14 Dec 2020 14:32:50 GMT] - [32minfo[39m: Redis server is running
+[Mon, 14 Dec 2020 14:32:53 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 14 Dec 2020 14:32:53 GMT] - [32minfo[39m: Redis server is running
+[Mon, 14 Dec 2020 14:32:56 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 14 Dec 2020 14:32:56 GMT] - [32minfo[39m: Redis server is running
+[Mon, 14 Dec 2020 14:33:01 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 14 Dec 2020 14:33:01 GMT] - [32minfo[39m: Redis server is running
+[Mon, 14 Dec 2020 14:33:04 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 14 Dec 2020 14:33:04 GMT] - [32minfo[39m: Redis server is running
+[Mon, 14 Dec 2020 14:33:43 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 14 Dec 2020 14:33:43 GMT] - [32minfo[39m: Redis server is running
+[Mon, 14 Dec 2020 14:33:55 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 14 Dec 2020 14:33:55 GMT] - [32minfo[39m: Redis server is running
+[Mon, 14 Dec 2020 14:34:00 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 14 Dec 2020 14:34:00 GMT] - [32minfo[39m: Redis server is running
+[Mon, 14 Dec 2020 14:34:05 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 14 Dec 2020 14:34:05 GMT] - [32minfo[39m: Redis server is running
+[Mon, 14 Dec 2020 14:34:10 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 14 Dec 2020 14:34:10 GMT] - [32minfo[39m: Redis server is running
+[Mon, 14 Dec 2020 14:34:21 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 14 Dec 2020 14:34:21 GMT] - [32minfo[39m: Redis server is running
+[Mon, 14 Dec 2020 14:34:23 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 14 Dec 2020 14:34:23 GMT] - [32minfo[39m: Redis server is running
+[Mon, 14 Dec 2020 14:35:02 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 14 Dec 2020 14:35:02 GMT] - [32minfo[39m: Redis server is running
+[Mon, 14 Dec 2020 14:42:51 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 14 Dec 2020 14:42:51 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:06:12 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:06:12 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:08:46 GMT] - [31merror[39m: ApiError - 400 - "productResultId" is not allowed - /api/v1/analysis/result - POST - ::1
+[Tue, 15 Dec 2020 14:09:22 GMT] - [31merror[39m: ApiError - 400 - "remark" is not allowed - /api/v1/analysis/result - POST - ::1
+[Tue, 15 Dec 2020 14:11:02 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:11:02 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:15:53 GMT] - [31merror[39m: error fetching product test - Error - TestId: 2 is invalid
+[Tue, 15 Dec 2020 14:15:53 GMT] - [31merror[39m: ApiError - 400 - error fetching product test - /api/v1/analysis/result - POST - ::1
+[Tue, 15 Dec 2020 14:18:14 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:18:14 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:18:27 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:18:27 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:18:33 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:18:33 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:18:37 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:18:37 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:18:43 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:18:43 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:18:50 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:18:50 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:18:53 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:18:53 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:18:57 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:18:57 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:18:58 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:18:58 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:19:01 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:19:01 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:20:32 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:20:32 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:20:33 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:20:33 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:20:36 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:20:36 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:20:52 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:20:52 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:20:59 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:20:59 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:21:37 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:21:37 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:21:39 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:21:39 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:23:08 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:23:08 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:24:05 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:24:05 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:25:25 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:25:25 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:25:30 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:25:30 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:26:06 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:26:06 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:26:09 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:26:09 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:26:18 GMT] - [31merror[39m: error fetching product test - Error - TestId: 2 is invalid
+[Tue, 15 Dec 2020 14:26:18 GMT] - [31merror[39m: ApiError - 400 - error fetching product test - /api/v1/analysis/result - POST - ::1
+[Tue, 15 Dec 2020 14:26:58 GMT] - [31merror[39m: error fetching product test - Error - TestId: 1 is invalid
+[Tue, 15 Dec 2020 14:26:58 GMT] - [31merror[39m: ApiError - 400 - error fetching product test - /api/v1/analysis/result - POST - ::1
+[Tue, 15 Dec 2020 14:27:20 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:27:20 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:27:23 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:27:23 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:27:24 GMT] - [31merror[39m: error fetching product test - Error - TestId: 1 is invalid
+[Tue, 15 Dec 2020 14:27:24 GMT] - [31merror[39m: ApiError - 400 - error fetching product test - /api/v1/analysis/result - POST - ::1
+[Tue, 15 Dec 2020 14:29:05 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:29:05 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:29:06 GMT] - [31merror[39m: error fetching product test - Error - TestId: 1 is invalid
+[Tue, 15 Dec 2020 14:29:06 GMT] - [31merror[39m: ApiError - 400 - error fetching product test - /api/v1/analysis/result - POST - ::1
+[Tue, 15 Dec 2020 14:29:25 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:29:25 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:29:38 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:29:38 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:29:39 GMT] - [31merror[39m: error fetching product test - ReferenceError - productId is not defined
+[Tue, 15 Dec 2020 14:29:39 GMT] - [31merror[39m: ApiError - 400 - error fetching product test - /api/v1/analysis/result - POST - ::1
+[Tue, 15 Dec 2020 14:29:47 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:29:47 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:29:48 GMT] - [31merror[39m: ApiError - 500 - Error saving analysis result - /api/v1/analysis/result - POST - ::1
+[Tue, 15 Dec 2020 14:30:50 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:30:50 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:30:52 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:30:52 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:30:53 GMT] - [31merror[39m: ApiError - 500 - Error saving analysis result - /api/v1/analysis/result - POST - ::1
+[Tue, 15 Dec 2020 14:31:11 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:31:11 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:31:15 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:31:15 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:31:28 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:31:28 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:31:35 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:31:35 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:31:40 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:31:40 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:31:41 GMT] - [31merror[39m: ApiError - 500 - Error saving analysis result - /api/v1/analysis/result - POST - ::1
+[Tue, 15 Dec 2020 14:32:01 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:32:01 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:32:03 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:32:03 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:32:15 GMT] - [31merror[39m: ApiError - 500 - Error saving analysis result - /api/v1/analysis/result - POST - ::1
+[Tue, 15 Dec 2020 14:32:50 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:32:50 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:32:52 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:32:52 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:33:00 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:33:00 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:33:06 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:33:06 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:33:15 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:33:15 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:33:21 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:33:21 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:33:39 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:33:39 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:33:41 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:33:41 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:33:44 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:33:44 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:33:45 GMT] - [31merror[39m: ApiError - 500 - Error saving analysis result - /api/v1/analysis/result - POST - ::1
+[Tue, 15 Dec 2020 14:33:57 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:33:57 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:37:03 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:37:03 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:37:06 GMT] - [31merror[39m: ApiError - 500 - Error saving analysis result - /api/v1/analysis/result - POST - ::1
+[Tue, 15 Dec 2020 14:37:16 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:37:16 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:37:17 GMT] - [31merror[39m: ApiError - 500 - Error saving analysis result - /api/v1/analysis/result - POST - ::1
+[Tue, 15 Dec 2020 14:37:58 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:37:58 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:40:32 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:40:32 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:40:39 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:40:39 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:40:42 GMT] - [31merror[39m: ApiError - 500 - Error saving analysis result - /api/v1/analysis/result - POST - ::1
+[Tue, 15 Dec 2020 14:42:34 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:42:34 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:43:20 GMT] - [31merror[39m: ApiError - 500 - Error saving analysis result - /api/v1/analysis/result - POST - ::1
+[Tue, 15 Dec 2020 14:44:06 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:44:06 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:44:07 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:44:07 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:44:10 GMT] - [31merror[39m: ApiError - 500 - Error saving analysis result - /api/v1/analysis/result - POST - ::1
+[Tue, 15 Dec 2020 14:48:30 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:48:30 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:50:44 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 14:50:44 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 14:50:45 GMT] - [31merror[39m: ApiError - 500 - Error saving analysis result - /api/v1/analysis/result - POST - ::1
+[Tue, 15 Dec 2020 15:10:29 GMT] - [31merror[39m: ApiError - 500 - Error saving analysis result - /api/v1/analysis/result - POST - ::1
+[Tue, 15 Dec 2020 15:11:23 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 15:11:23 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 15:11:27 GMT] - [31merror[39m: ApiError - 500 - Error saving analysis result - /api/v1/analysis/result - POST - ::1
+[Tue, 15 Dec 2020 15:13:04 GMT] - [31merror[39m: ApiError - 500 - Error saving analysis result - /api/v1/analysis/result - POST - ::1
+[Tue, 15 Dec 2020 15:15:55 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 15:15:55 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 15:16:10 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 15:16:10 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 15:16:33 GMT] - [31merror[39m: ApiError - 400 - analysis can not contain duplicate testId - /api/v1/analysis/result - POST - ::1
+[Tue, 15 Dec 2020 15:16:48 GMT] - [31merror[39m: error fetching product test - Error - TestId: 2 is invalid
+[Tue, 15 Dec 2020 15:16:48 GMT] - [31merror[39m: ApiError - 400 - error fetching product test - /api/v1/analysis/result - POST - ::1
+[Tue, 15 Dec 2020 15:21:55 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 15:21:55 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 15:22:01 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 15:22:01 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 15:22:03 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 15:22:03 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 15:22:53 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 15:22:53 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 15:22:56 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 15:22:56 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 15:23:30 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 15:23:30 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 15:23:52 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 15:23:52 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 15:24:00 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 15:24:00 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 15:24:02 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 15:24:02 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 15:24:03 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 15:24:03 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 15:24:05 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 15:24:05 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 15:24:51 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 15:24:51 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 15:26:50 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 15:26:50 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 15:42:44 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 15:42:44 GMT] - [32minfo[39m: Redis server is running
