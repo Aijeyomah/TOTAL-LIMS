@@ -33,10 +33,10 @@ class ProductAnalysis {
           this.report_no,
         ]);
         const analysisDetails = this.analysis.map(
-          ({ testId, productSpecResult, productId }) => {
+          ({ testId, productSpecResult}) => {
             t.one(insertAnalysisResult, [
               Helper.generateId(),
-              productId,
+              this.product_id,
               this.result_details_id,
               testId,
               productSpecResult,

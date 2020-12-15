@@ -46,7 +46,6 @@ const productAnalysisDetails = Joi.object({
 });
 
 const productAnalysisResult = Joi.object({
-  productId: stringCheck(Joi, "product_id"),
   testId: stringCheck(Joi, "testId"),
   productSpecResult: stringCheck(Joi, "productSpecResult"),
 });

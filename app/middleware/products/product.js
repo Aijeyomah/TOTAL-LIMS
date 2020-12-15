@@ -141,11 +141,11 @@ class ProductMiddleware {
 
   static async checkIfTestIsValid(req, res, next) {
      try {
-           const { analysis } = req.body;
+           const { analysis, productId } = req.body;
            for (const test of analysis) {
              const result = await db.oneOrNone(
                checkIfTestIsValid,
-               [test.productId, test.testId]
+               [productId, test.testId]
              );
              if (!result) {
                throw new Error(`TestId: ${test.testId} is invalid`);

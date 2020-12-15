@@ -2593,3 +2593,24 @@
 [Tue, 15 Dec 2020 15:26:50 GMT] - [32minfo[39m: Redis server is running
 [Tue, 15 Dec 2020 15:42:44 GMT] - [32minfo[39m: Lims system is running on PORT 3000
 [Tue, 15 Dec 2020 15:42:44 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 15:47:49 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 15:47:49 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 15:47:52 GMT] - [31merror[39m: ApiError - 400 - product_id should is required - /api/v1/analysis/result - POST - ::1
+[Tue, 15 Dec 2020 15:48:17 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 15:48:17 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 15:48:18 GMT] - [31merror[39m: error fetching product test - Error - TestId: 1 is invalid
+[Tue, 15 Dec 2020 15:48:18 GMT] - [31merror[39m: ApiError - 400 - error fetching product test - /api/v1/analysis/result - POST - ::1
+[Tue, 15 Dec 2020 15:48:53 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 15:48:53 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 15:48:54 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 15:48:54 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 15:48:58 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 15:48:58 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 15:48:59 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 15:48:59 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 15:49:03 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 15:49:03 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 15:49:40 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 15:49:40 GMT] - [32minfo[39m: Redis server is running
+[Tue, 15 Dec 2020 15:49:45 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 15 Dec 2020 15:49:45 GMT] - [32minfo[39m: Redis server is running
