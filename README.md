@@ -4,6 +4,11 @@ Accuracy – A LIMS helps labs produce accurate, repeatable results
 Efficiency – A LIMS helps labs to automate and speed up laborious tasks
 Management – A LIMS helps labs store and retrieve results quickly
 
+### Technology 
+- Node js
+- postgres
+- Redis
+
 ## Required Features
 Admin stories
 - create staffs
