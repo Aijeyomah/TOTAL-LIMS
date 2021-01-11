@@ -5,15 +5,22 @@ import { ProductMiddleware } from "../../middleware/products";
 import ProductAnalysisResult from '../../controllers/products'
 
 const router = Router();
-const { checkIfTestIsValid } = ProductMiddleware;
-const { analysisResult } = ProductAnalysisResult;
-const { roleValidator } = RoleMiddleware;
+const { checkIfTestIsValid, checkIfResultDetailExist } = ProductMiddleware;
+const { saveAnalysisResult, getAnalysisResult } = ProductAnalysisResult;
+const { roleValidator, roleAccessValidator } = RoleMiddleware;
 router.post(
     '/result',
-    roleValidator,
+    roleAccessValidator(['super', 'staff']),
     validateAnalysisResultFields,
     checkIfTestIsValid,
-    analysisResult,
+    saveAnalysisResult,
 );
+
+router.get(
+    '/result/:productResultId',
+    roleValidator,
+    checkIfResultDetailExist,
+    getAnalysisResult
+)
 
 export default router;

@@ -188,11 +188,10 @@ export default {
     `,
   insertAnalysisResult: `INSERT INTO product_test_result(
         id, 
-        product_id,
         product_result_id,
         test_id,
         product_spec_result
-    )VALUES($1, $2, $3, $4, $5) RETURNING *
+    )VALUES($1, $2, $3, $4) RETURNING *
     `,
   insertAnalysisResultDetails: `INSERT INTO product_result_details( 
         id,
@@ -200,7 +199,49 @@ export default {
         source,
         date_received,
         date_sampled,
-        report_no
-    )VALUES($1, $2, $3, $4, $5, $6) RETURNING *
+        report_no,
+        product_id
+    )VALUES($1, $2, $3, $4, $5, $6, $7) RETURNING id
     `,
+    getProductAnalysisResult: `
+        SELECT
+	products.id,
+	products.product_name,
+	d.*,
+	(
+		SELECT
+			(
+				SELECT
+					ARRAY_TO_JSON(ARRAY_AGG(ROW_TO_JSON(spec_res))) specification
+				FROM (
+					SELECT
+						test.test,
+						test.unit,
+						test.method,
+						spec.product_spec,
+						result.product_spec_result,
+						detail.*
+					FROM
+						product_specification spec
+						INNER JOIN product_tests test ON test.id = spec.test_id
+						INNER JOIN product_test_result result ON result.test_id = test.id
+						INNER JOIN product_result_details detail ON detail.id = product_result_id
+					WHERE
+						detail.id = $1
+						AND spec.product_id = products.id) AS spec_res))
+		FROM
+			products
+			INNER JOIN product_result_details d ON products.id = d.product_id
+		WHERE
+			d.id = $1;
+
+    `,
+    getResultDetails: `
+        SELECT 
+            *
+        FROM 
+            product_result_details
+        WHERE
+            id = $1
+    `
 };

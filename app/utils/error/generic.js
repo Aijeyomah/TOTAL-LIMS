@@ -17,7 +17,9 @@ const {
   UPDATE_PRODUCT_SPEC_FAIL,
   ERROR_SAVING_PRODUCT_RESULT,
   DELETE_PRODUCT_FAIL,
-  ERROR_SAVING_RESULT
+  ERROR_SAVING_RESULT,
+  ERROR_FETCHING_RESULT_ANALYSIS
+  
 } = constants;
 
 export default {
@@ -38,5 +40,6 @@ export default {
   updateProductSpecError: new ApiError({ message: UPDATE_PRODUCT_SPEC_FAIL }),
   deleteProduct: new ApiError({ message: DELETE_PRODUCT_FAIL }),
   getProductError: new ApiError({ message: RETRIEVE_ALL_PRODUCTS_FAIL }),
-  saveAnalysisError: new ApiError({message: ERROR_SAVING_RESULT })
+  saveAnalysisError: new ApiError({ message: ERROR_SAVING_RESULT }),
+  fetchResultAnalysisError: new ApiError({ message: ERROR_FETCHING_RESULT_ANALYSIS })
 };

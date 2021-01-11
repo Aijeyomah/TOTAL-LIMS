@@ -1,6 +1,6 @@
 import queries from "../../db/queries/product";
 import db, { redisDB } from "../../db";
-import { Helper, constants, DBError } from "../../utils";
+import { Helper, constants, DBError } from "../../utils";;
 
 const { moduleErrLogMessager } = Helper;
 const {
@@ -8,6 +8,7 @@ const {
   FETCH_CATEGORIES_FAIL,
   UPDATE_PRODUCT_FAIL,
   DELETE_PRODUCT_FAIL,
+  FETCH_ANALYSIS_RESULT_FAIL
 } = constants;
 const {
   getAllProductAndSpec,
@@ -17,6 +18,7 @@ const {
   editProductSpec,
   deleteProduct,
   searchProductsQuery,
+  getProductAnalysisResult
 } = queries;
 /**
  * Contains a collection of service methods for managing the product resource on the app.
@@ -130,6 +132,7 @@ class ProductServices {
     }
   }
 
+  // refactor this code
   static async searchProduct(category_id, Product_name, created_at) {
     try {
       return await db.any(searchProductsQuery, [
@@ -147,6 +150,21 @@ class ProductServices {
       throw dbError;
     }
   }
-}
+
+  static async getAnalysisResult(productResultId) {
+    try {
+      return await db.any(getProductAnalysisResult, [ productResultId])
+    } catch (e) {
+      const dbError = new DBError({
+        message: e.message,
+        status: FETCH_ANALYSIS_RESULT_FAIL,
+        errors: [],
+      });
+      moduleErrLogMessager(dbError);
+      throw dbError;
+    }
+    }
+};
+
 
 export default ProductServices;

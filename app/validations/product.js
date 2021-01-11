@@ -67,9 +67,11 @@ const analysisResultSchema = Joi.object({
   allowUnknown: true,
 });
 
+
+
 export {
   productTestSchema,
   productSchema,
   updateProductSpecSchema,
-  analysisResultSchema,
+  analysisResultSchema
 };

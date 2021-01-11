@@ -24,19 +24,19 @@ class ProductAnalysis {
     try {
       return db.tx(async t => {
         
-        await t.one(insertAnalysisResultDetails, [
+        const data = await t.one(insertAnalysisResultDetails, [
           this.result_details_id,
           this.remark,
           this.source,
           this.date_received,
           this.date_sampled,
           this.report_no,
+          this.product_id
         ]);
         const analysisDetails = this.analysis.map(
           ({ testId, productSpecResult}) => {
             t.one(insertAnalysisResult, [
               Helper.generateId(),
-              this.product_id,
               this.result_details_id,
               testId,
               productSpecResult,
@@ -44,6 +44,7 @@ class ProductAnalysis {
           }
         );
         await Promise.all(analysisDetails);
+        return data;
       });
     } catch (e) {
       const dbError = new DBError({

@@ -27,7 +27,7 @@ export default {
   FAIL: 'fail',
   STAFF_EMAIL_EXIST_VERIFICATION_FAIL_MSG: 'Error verifying existence of staff, try again.',
   PRODUCT_TEST_CONFLICT: 'Test already exist',
-  ANALYSIS_SPEC_CONFLICT: `Analysis specification with do not belong to product`,
+  ANALYSIS_SPEC_CONFLICT: 'Analysis specification with do not belong to product',
   PRODUCT_CONFLICT: 'product already exist',
   ERROR_FETCHING_PRODUCT_TEST: 'error fetching product test',
   ERROR_FETCHING_PRODUCT: 'error fetching product',
@@ -45,6 +45,9 @@ export default {
   DELETE_PRODUCT_SUCCESSFULLY: 'product deleted successfully',
   ROLE_NOT_SUFFICIENT: 'You required a higher access level to utilize this resource',
   SAVE_ANALYSIS_SUCCESSFULLY: 'Analysis result save successfully',
-  ERROR_SAVING_RESULT: 'Error saving analysis result'
+  ERROR_SAVING_RESULT: 'Error saving analysis result',
+  INVALID_RESULT_ID: 'Invalid product id',
+  ERROR_FETCHING_RESULT_ANALYSIS: 'Error fetching result analysis', 
+  FETCH_ANALYSIS_RESULT_SUCCESSFULLY: 'Analysis result successfully fetched'
   
 };

@@ -9,7 +9,6 @@ import {
   updateProductSpecSchema,
   analysisResultSchema,
 } from "../../validations/product";
-import { error } from "winston";
 
 const {
   PRODUCT_TEST_CONFLICT,
@@ -17,6 +16,7 @@ const {
   PRODUCT_CONFLICT,
   ERROR_FETCHING_PRODUCT,
   ANALYSIS_SPEC_CONFLICT,
+  INVALID_RESULT_ID
 } = constants;
 const { errorResponse } = Helper;
 const {
@@ -24,6 +24,7 @@ const {
   getProductByProductName,
   checkIfTestBelongsToProduct,
   checkIfTestIsValid,
+  getResultDetails
 } = query;
 
 class ProductMiddleware {
@@ -175,6 +176,34 @@ class ProductMiddleware {
         }
       }
       next();
+    } catch (e) {
+      e.status = ERROR_FETCHING_PRODUCT;
+      Helper.moduleErrLogMessager(e);
+      errorResponse(
+        req,
+        res,
+        new ApiError({
+          message: ERROR_FETCHING_PRODUCT,
+          status: 400,
+          errors: e.message,
+        })
+      );
+    }
+  }
+
+  static async checkIfResultDetailExist(req, res, next) {
+    try {
+      const { productResultId } = req.params;
+      const detail = await db.oneOrNone(getResultDetails, [productResultId]);
+      if (!detail) {
+         return errorResponse(
+          req,
+          res,
+          new ApiError({ message: INVALID_RESULT_ID, status: 409 })
+        );
+      }
+      next()
+      
     } catch (e) {
       e.status = ERROR_FETCHING_PRODUCT;
       Helper.moduleErrLogMessager(e);
