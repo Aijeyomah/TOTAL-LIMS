@@ -31,7 +31,7 @@ router.get(
 );
 
 router.get(
-  '/all',
+  '/all/:categoryId',
   roleValidator,
   getAllProduct
 );

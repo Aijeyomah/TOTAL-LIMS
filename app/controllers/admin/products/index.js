@@ -91,7 +91,7 @@ class ProductController {
 
   static async getAllProduct(req, res, next) {
     try {
-      const test = await ProductServices.getAllProduct(req.body.categoryId);
+      const test = await ProductServices.getAllProduct(req.params.categoryId);
       return successResponse(res, {
         message: FETCH_PRODUCTS_SUCCESSFULLY,
         data: test,
