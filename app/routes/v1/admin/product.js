@@ -52,7 +52,7 @@ router.put(
 );
 
 router.delete(
-  '/:id/product',
+  '/:id',
   roleValidator,
   checkIfProductExist,
   deleteProduct

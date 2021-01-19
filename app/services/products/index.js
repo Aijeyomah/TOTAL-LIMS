@@ -120,11 +120,12 @@ class ProductServices {
 
   static async deleteProduct(id) {
     try {
-      return await db.none(searchProducts, []);
+      return await db.none(deleteProduct, [id]);
     } catch (e) {
+      console.log(e);
       const dbError = new DBError({
         message: e.message,
-        status: FETCH_PRODUCT_FAIL,
+        status: DELETE_PRODUCT_FAIL,
         errors: [],
       });
       moduleErrLogMessager(dbError);
