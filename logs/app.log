@@ -2765,3 +2765,26 @@
 [Tue, 19 Jan 2021 14:02:05 GMT] - [32minfo[39m: Redis server is running
 [Tue, 19 Jan 2021 14:03:11 GMT] - [32minfo[39m: Lims system is running on PORT 3000
 [Tue, 19 Jan 2021 14:03:11 GMT] - [32minfo[39m: Redis server is running
+[Tue, 19 Jan 2021 15:38:49 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 19 Jan 2021 15:38:49 GMT] - [32minfo[39m: Redis server is running
+[Tue, 19 Jan 2021 15:38:53 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 19 Jan 2021 15:38:53 GMT] - [32minfo[39m: Redis server is running
+[Tue, 19 Jan 2021 15:38:55 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 19 Jan 2021 15:38:55 GMT] - [32minfo[39m: Redis server is running
+[Tue, 19 Jan 2021 15:39:26 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 19 Jan 2021 15:39:26 GMT] - [32minfo[39m: Redis server is running
+[Tue, 19 Jan 2021 15:39:34 GMT] - [31merror[39m: ApiError - 401 - Access denied,a valid access token is required - /api/v1/admin/products/all/3 - GET - ::1
+[Tue, 19 Jan 2021 15:39:53 GMT] - [31merror[39m: FETCH PRODUCT FAIL - DBError - column spec.id does not exist
+[Tue, 19 Jan 2021 15:39:53 GMT] - [31merror[39m: ApiError - 500 - fetch product failed - /api/v1/admin/products/all/3 - GET - ::1
+[Tue, 19 Jan 2021 15:40:22 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 19 Jan 2021 15:40:22 GMT] - [32minfo[39m: Redis server is running
+[Tue, 19 Jan 2021 15:40:24 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 19 Jan 2021 15:40:24 GMT] - [32minfo[39m: Redis server is running
+[Tue, 19 Jan 2021 15:40:27 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 19 Jan 2021 15:40:27 GMT] - [32minfo[39m: Redis server is running
+[Tue, 19 Jan 2021 15:40:33 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 19 Jan 2021 15:40:33 GMT] - [32minfo[39m: Redis server is running
+[Tue, 19 Jan 2021 15:40:36 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 19 Jan 2021 15:40:36 GMT] - [32minfo[39m: Redis server is running
+[Tue, 19 Jan 2021 15:40:38 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Tue, 19 Jan 2021 15:40:38 GMT] - [32minfo[39m: Redis server is running
