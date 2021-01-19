@@ -83,7 +83,7 @@ export default {
                         test.test,
                         -- test.test_name,
                         spec.product_spec,
-                        spec.spec_id specId
+                        spec.spec_id
 					FROM
 						product_specification spec
 						INNER JOIN product_tests test ON test.id = spec.test_id
