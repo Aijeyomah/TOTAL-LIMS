@@ -104,14 +104,14 @@ class ProductServices {
     try {
       const { productSpecification } = reqData;
       return db.tx(async t => {
-        const product = productSpecification.map(async({ productSpec, specId, testId }) => {
+        const product = productSpecification.map(async({ product_spec, spec_id, testId }) => {
           let result;
-          if (!specId) {
-            specId = Helper.generateId()
-           result = await t.one(createProductSpecification, [specId, ProductId, testId, productSpec])
+          if (!spec_id) {
+            spec_id = Helper.generateId()
+           result = await t.one(createProductSpecification, [spec_id, ProductId, testId, product_spec])
             
           }
-           result = await t.one(editProductSpec, [productSpec, ProductId, specId, testId]);
+           result = await t.one(editProductSpec, [product_spec, ProductId, spec_id, testId]);
           return result;
           
         });
@@ -119,7 +119,6 @@ class ProductServices {
         return data;
       });
     } catch (e) {
-      console.log(e);
       const dbError = new DBError({
         message: e.message,
         status: UPDATE_PRODUCT_FAIL,
@@ -134,7 +133,6 @@ class ProductServices {
     try {
       return await db.none(deleteProduct, [id]);
     } catch (e) {
-      console.log(e);
       const dbError = new DBError({
         message: e.message,
         status: DELETE_PRODUCT_FAIL,

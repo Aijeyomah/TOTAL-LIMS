@@ -168,12 +168,13 @@ class ProductMiddleware {
     try {
       const { productSpecification } = req.body;
       for (const spec of productSpecification) {
-        if (spec.specId) {
+        if (spec.spec_id) {
           const result = await db.oneOrNone(checkIfTestBelongsToProduct, [
-            spec.specId,
+            spec.spec_id,
           ]);
+          
           if (!result) {
-            throw new Error(`specId: ${spec.specId} is invalid`);
+            throw new Error(`specId: ${spec.spec_id} is invalid`);
           }
         }
        

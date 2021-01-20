@@ -17,14 +17,14 @@ const productTestSchema = Joi.object({
 });
 
 const editProductTestItemArray = Joi.object({
-  productSpec: stringCheck(Joi, "product_spec"),
+  product_spec: stringCheck(Joi, "product_spec"),
   testId: stringCheck(Joi, "test_id")
   //specId: stringCheck(Joi, "spec_id"),
 });
 
  const updateProductSpecSchema = Joi.object({
   productSpecification: Joi.array()
-    .unique((a, b) => a.specId === b.specId)
+    .unique((a, b) => a.spec_id === b.spec_id)
     .items(editProductTestItemArray)
     .min(1)
     .required()

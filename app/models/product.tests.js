@@ -37,7 +37,6 @@ class ProductTestModel {
         await Promise.all([ProductTest, categoryTest]);
       });
     } catch (error) {
-      console.log(e);
 
       const dbError = new DBError({
         message: error.message,

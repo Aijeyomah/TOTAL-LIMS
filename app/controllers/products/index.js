@@ -20,7 +20,6 @@ class ProductAnalysisResult {
               code: 201,
             });
         } catch (e) {
-            console.log(e);
             next(errorResponse(req, res, genericErrors.saveAnalysisError));
         }
     }
@@ -34,7 +33,6 @@ class ProductAnalysisResult {
               code: 201,
             });
         } catch (e) {
-            console.log(e);
             next(errorResponse(req, res, genericErrors.fetchResultAnalysisError));
         }
     }

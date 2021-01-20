@@ -49,8 +49,6 @@ class AuthMiddleware {
       await loginSchema.validateAsync(req.body);
       next();
     } catch (e) {
-      console.log('kkkkkkk');
-
       const apiError = new ApiError({
         status: 400,
         message: e.details[0].message,
@@ -78,8 +76,6 @@ class AuthMiddleware {
         status: 400,
         message: e.details[0].message,
       });
-      console.log('#######', apiError);
-
       errorResponse(req, res, apiError);
     }
   }
