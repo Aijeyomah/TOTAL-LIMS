@@ -196,7 +196,7 @@ class Helper {
    * @returns { Null } -  It returns null.
    */
   static moduleErrLogMessager(error) {
-    return logger.error(`${error.status} - ${error.name} - ${error.message}`);
+    logger.error(`${error.status} - ${error.name} - ${error.message}`);
   }
 
   /**

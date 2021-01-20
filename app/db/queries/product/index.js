@@ -26,7 +26,7 @@ export default {
         product_id,
         test_id,
         product_spec
-    ) VALUES($1, $2, $3, $4)`,
+    ) VALUES($1, $2, $3, $4) RETURNING *`,
 
   insertProductAnalysisResult: `INSERT INTO product_test_result(
         id,
@@ -123,6 +123,8 @@ export default {
             product_id = $2
         AND
             spec_id = $3
+        AND
+            test_id =$4
         RETURNING *    
     `,
   deleteProduct: `
@@ -244,5 +246,6 @@ export default {
             product_result_details
         WHERE
             id = $1
-    `
+    `,
+
 };

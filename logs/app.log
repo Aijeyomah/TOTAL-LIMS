@@ -2788,3 +2788,87 @@
 [Tue, 19 Jan 2021 15:40:36 GMT] - [32minfo[39m: Redis server is running
 [Tue, 19 Jan 2021 15:40:38 GMT] - [32minfo[39m: Lims system is running on PORT 3000
 [Tue, 19 Jan 2021 15:40:38 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 09:53:48 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 09:53:48 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 09:54:30 GMT] - [31merror[39m: ApiError - 400 - "productSpecification[0].specId" is not allowed - /api/v1/admin/products/categories/c3ad853a-52c9-48c9-8133-c0a9200d649f - PUT - ::1
+[Wed, 20 Jan 2021 09:55:10 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 09:55:10 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 09:55:11 GMT] - [31merror[39m: ApiError - 500 - UPDATE_PRODUCT_SPEC_FAIL - /api/v1/admin/products/categories/c3ad853a-52c9-48c9-8133-c0a9200d649f - PUT - ::1
+[Wed, 20 Jan 2021 09:56:02 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 09:56:02 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 09:56:06 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 09:56:06 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 09:56:07 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 09:56:07 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 09:56:51 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 09:56:51 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 09:56:53 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 09:56:53 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 09:56:54 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 09:56:54 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 09:56:56 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 09:56:56 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 09:57:03 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 09:57:03 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 09:57:11 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 09:57:11 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 09:57:14 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 09:57:14 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 09:57:19 GMT] - [31merror[39m: ApiError - 500 - UPDATE_PRODUCT_SPEC_FAIL - /api/v1/admin/products/categories/c3ad853a-52c9-48c9-8133-c0a9200d649f - PUT - ::1
+[Wed, 20 Jan 2021 09:57:33 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 09:57:33 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 09:58:28 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 09:58:28 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 09:58:47 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 09:58:47 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 09:58:58 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 09:58:58 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 09:59:13 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 09:59:13 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 09:59:26 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 09:59:26 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 10:00:27 GMT] - [31merror[39m: ApiError - 500 - UPDATE_PRODUCT_SPEC_FAIL - /api/v1/admin/products/categories/c3ad853a-52c9-48c9-8133-c0a9200d649f - PUT - ::1
+[Wed, 20 Jan 2021 10:02:24 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 10:02:24 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 10:02:41 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 10:02:41 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 10:03:37 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 10:03:37 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 10:04:51 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 10:04:51 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 10:05:09 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 10:05:09 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 10:05:13 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 10:05:13 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 10:05:18 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 10:05:18 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 10:05:20 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 10:05:20 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 10:05:24 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 10:05:24 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 10:05:29 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 10:05:29 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 10:06:02 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 10:06:02 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 10:06:03 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 10:06:03 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 10:06:22 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 10:06:22 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 10:06:38 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 10:06:38 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 10:07:02 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 10:07:02 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 10:09:54 GMT] - [31merror[39m: ApiError - 500 - UPDATE_PRODUCT_SPEC_FAIL - /api/v1/admin/products/categories/c3ad853a-52c9-48c9-8133-c0a9200d649f - PUT - ::1
+[Wed, 20 Jan 2021 10:10:24 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 10:10:24 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 10:11:13 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 10:11:13 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 10:11:22 GMT] - [31merror[39m: ApiError - 500 - UPDATE_PRODUCT_SPEC_FAIL - /api/v1/admin/products/categories/c3ad853a-52c9-48c9-8133-c0a9200d649f - PUT - ::1
+[Wed, 20 Jan 2021 10:11:46 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 10:11:46 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 10:11:53 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 10:11:53 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 10:13:04 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 10:13:04 GMT] - [32minfo[39m: Redis server is running
+[Wed, 20 Jan 2021 10:21:23 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Wed, 20 Jan 2021 10:21:23 GMT] - [32minfo[39m: Redis server is running

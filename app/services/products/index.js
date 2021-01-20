@@ -18,7 +18,8 @@ const {
   editProductSpec,
   deleteProduct,
   searchProductsQuery,
-  getProductAnalysisResult
+  getProductAnalysisResult,
+  createProductSpecification
 } = queries;
 /**
  * Contains a collection of service methods for managing the product resource on the app.
@@ -102,12 +103,23 @@ class ProductServices {
   static async editProductSpec(reqData, ProductId) {
     try {
       const { productSpecification } = reqData;
-      const product = productSpecification.map(({ productSpec, specId }) => {
-        return db.any(editProductSpec, [productSpec, ProductId, specId]);
+      return db.tx(async t => {
+        const product = productSpecification.map(async({ productSpec, specId, testId }) => {
+          let result;
+          if (!specId) {
+            specId = Helper.generateId()
+           result = await t.one(createProductSpecification, [specId, ProductId, testId, productSpec])
+            
+          }
+           result = await t.one(editProductSpec, [productSpec, ProductId, specId, testId]);
+          return result;
+          
+        });
+        const data = await Promise.all(product);
+        return data;
       });
-      const data = await Promise.all(product);
-      return data;
     } catch (e) {
+      console.log(e);
       const dbError = new DBError({
         message: e.message,
         status: UPDATE_PRODUCT_FAIL,

@@ -124,6 +124,7 @@ class ProductController {
         code: 201,
       });
     } catch (e) {
+      console.log(e);
       next(errorResponse(req, res, genericErrors.updateProductSpecError));
     }
   }

@@ -43,7 +43,7 @@ router.get(
 );
 
 router.put(
-  '/categories/:productId',
+  '/edit/:productId',
   roleValidator,
   validateProductSpecFields,
   checkIfSpecBelongToProduct,

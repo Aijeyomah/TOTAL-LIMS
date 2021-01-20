@@ -18,7 +18,8 @@ const productTestSchema = Joi.object({
 
 const editProductTestItemArray = Joi.object({
   productSpec: stringCheck(Joi, "product_spec"),
-  specId: stringCheck(Joi, "spec_id"),
+  testId: stringCheck(Joi, "test_id")
+  //specId: stringCheck(Joi, "spec_id"),
 });
 
  const updateProductSpecSchema = Joi.object({
@@ -33,7 +34,9 @@ const editProductTestItemArray = Joi.object({
       'array.min': 'product specification must contain at least 2 items',
       'array.unique': 'product specification can not contain duplicate id'
     })
- });
+ }).options({
+  allowUnknown: true,
+});;
 
 const productAnalysisDetails = Joi.object({
   resultDetailsId: stringCheck(Joi, "result_details_id"),
