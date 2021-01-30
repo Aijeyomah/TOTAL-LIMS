@@ -32,7 +32,7 @@ router.get(
 
 router.get(
   '/all/:categoryId',
-  roleValidator,
+  roleAccessValidator(["super", "staff"]),
   getAllProduct
 );
 

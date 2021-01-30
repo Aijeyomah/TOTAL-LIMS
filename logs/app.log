@@ -2977,3 +2977,21 @@ TypeError: moment.range is not a function
 [Sat, 30 Jan 2021 21:54:44 GMT] - [32minfo[39m: Lims system is running on PORT 3000
 [Sat, 30 Jan 2021 21:54:44 GMT] - [32minfo[39m: Redis server is running
 [Sat, 30 Jan 2021 22:04:04 GMT] - [31merror[39m: ApiError - 401 - Access denied,a valid access token is required - /api/v1/admin/auth/signup - POST - ::1
+[Sat, 30 Jan 2021 22:20:49 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sat, 30 Jan 2021 22:20:49 GMT] - [32minfo[39m: Redis server is running
+[Sat, 30 Jan 2021 22:28:12 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sat, 30 Jan 2021 22:28:12 GMT] - [32minfo[39m: Redis server is running
+[Sat, 30 Jan 2021 22:30:15 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sat, 30 Jan 2021 22:30:15 GMT] - [32minfo[39m: Redis server is running
+[Sat, 30 Jan 2021 22:30:18 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sat, 30 Jan 2021 22:30:18 GMT] - [32minfo[39m: Redis server is running
+[Sat, 30 Jan 2021 22:30:23 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sat, 30 Jan 2021 22:30:23 GMT] - [32minfo[39m: Redis server is running
+[Sat, 30 Jan 2021 22:30:25 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sat, 30 Jan 2021 22:30:25 GMT] - [32minfo[39m: Redis server is running
+[Sat, 30 Jan 2021 22:30:30 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sat, 30 Jan 2021 22:30:30 GMT] - [32minfo[39m: Redis server is running
+[Sat, 30 Jan 2021 22:30:32 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sat, 30 Jan 2021 22:30:32 GMT] - [32minfo[39m: Redis server is running
+[Sat, 30 Jan 2021 22:30:34 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sat, 30 Jan 2021 22:30:34 GMT] - [32minfo[39m: Redis server is running

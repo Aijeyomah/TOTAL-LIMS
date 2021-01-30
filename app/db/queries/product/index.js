@@ -79,7 +79,8 @@ export default {
 				SELECT
 					ARRAY_TO_JSON(ARRAY_AGG(ROW_TO_JSON(spec_res))) specification
 				FROM (
-					SELECT
+                    SELECT
+                        test.id test_id,
                         test.test,
                         -- test.test_name,
                         spec.product_spec,
