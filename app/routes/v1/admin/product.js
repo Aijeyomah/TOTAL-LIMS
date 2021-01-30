@@ -3,7 +3,7 @@ import { AuthMiddleware, RoleMiddleware } from '../../../middleware/auth';
 import { ProductMiddleware } from '../../../middleware/products';
 import ProductController from '../../../controllers/admin/products';
 
-const { roleValidator } = RoleMiddleware;
+const { roleValidator, roleAccessValidator } = RoleMiddleware;
 const { validateProductTestFields, checkIfProductTest, checkIfProductExist, validateProductFields, validateProductSpecFields, checkIfSpecBelongToProduct } = ProductMiddleware;
 const { productTest, product, getAllProductTest, getAllProduct, getAllCategory, editProductSpecification, deleteProduct, searchProducts } = ProductController;
 const router = Router();
@@ -60,7 +60,7 @@ router.delete(
 
 router.get(
   '/:category_id/product',
-  roleValidator,
+  roleAccessValidator(["super", "staff"]),
   checkIfProductExist,
   searchProducts
 );

@@ -2945,3 +2945,35 @@
 [Wed, 20 Jan 2021 18:18:11 GMT] - [32minfo[39m: Redis server is running
 [Wed, 20 Jan 2021 18:18:17 GMT] - [32minfo[39m: Lims system is running on PORT 3000
 [Wed, 20 Jan 2021 18:18:17 GMT] - [32minfo[39m: Redis server is running
+[Thu, 21 Jan 2021 10:06:31 GMT] - [31merror[39m: uncaughtException: moment is not defined
+/Users/aijey_omah/Documents/total-project/index.js:1
+ReferenceError: moment is not defined
+    at Object.<anonymous> (/Users/aijey_omah/Documents/total-project/index.js:13:15)
+    at Generator.next (<anonymous>)
+[Thu, 21 Jan 2021 10:06:31 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Thu, 21 Jan 2021 10:06:31 GMT] - [32minfo[39m: Redis server is running
+[Thu, 21 Jan 2021 10:06:50 GMT] - [31merror[39m: uncaughtException: moment.range is not a function
+/Users/aijey_omah/Documents/total-project/index.js:1
+TypeError: moment.range is not a function
+    at Object.<anonymous> (/Users/aijey_omah/Documents/total-project/index.js:16:8)
+    at Generator.next (<anonymous>)
+[Thu, 21 Jan 2021 10:06:50 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Thu, 21 Jan 2021 10:06:50 GMT] - [32minfo[39m: Redis server is running
+[Thu, 21 Jan 2021 10:06:53 GMT] - [31merror[39m: uncaughtException: moment.range is not a function
+/Users/aijey_omah/Documents/total-project/index.js:1
+TypeError: moment.range is not a function
+    at Object.<anonymous> (/Users/aijey_omah/Documents/total-project/index.js:17:8)
+    at Generator.next (<anonymous>)
+[Thu, 21 Jan 2021 10:06:53 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Thu, 21 Jan 2021 10:06:53 GMT] - [32minfo[39m: Redis server is running
+[Thu, 21 Jan 2021 10:07:14 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Thu, 21 Jan 2021 10:07:14 GMT] - [32minfo[39m: Redis server is running
+[Thu, 21 Jan 2021 10:08:09 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Thu, 21 Jan 2021 10:08:09 GMT] - [32minfo[39m: Redis server is running
+[Thu, 21 Jan 2021 10:08:24 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Thu, 21 Jan 2021 10:08:24 GMT] - [32minfo[39m: Redis server is running
+[Thu, 21 Jan 2021 10:08:42 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Thu, 21 Jan 2021 10:08:42 GMT] - [32minfo[39m: Redis server is running
+[Sat, 30 Jan 2021 21:54:44 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sat, 30 Jan 2021 21:54:44 GMT] - [32minfo[39m: Redis server is running
+[Sat, 30 Jan 2021 22:04:04 GMT] - [31merror[39m: ApiError - 401 - Access denied,a valid access token is required - /api/v1/admin/auth/signup - POST - ::1
