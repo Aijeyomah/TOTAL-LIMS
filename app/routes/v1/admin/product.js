@@ -38,7 +38,7 @@ router.get(
 
 router.get(
   '/categories',
-  roleValidator,
+  roleAccessValidator(["super", "staff"]),
   getAllCategory
 );
 
