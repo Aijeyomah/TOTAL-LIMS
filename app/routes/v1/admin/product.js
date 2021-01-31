@@ -26,7 +26,7 @@ router.post(
 
 router.get(
   '/test/:categoryId',
-  roleValidator,
+  roleAccessValidator(["super", "staff"]),
   getAllProductTest
 );
 
