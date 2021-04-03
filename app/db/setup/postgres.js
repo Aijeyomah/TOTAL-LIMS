@@ -5,11 +5,14 @@ import config from '../../../config/env';
 const { DATABASE_URL } = config;
 
 const options = {
-    promiseLib: promise
+    promiseLib: promise,
+    ssl: {
+        rejectUnauthorized: false
+    }
 };
 
 const pgp = pg(options);
-pgp.pg.defaults.ssl = true;
+
 const db = pgp(DATABASE_URL);
 
 export default db;
