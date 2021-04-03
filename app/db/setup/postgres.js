@@ -11,7 +11,7 @@ const options = {
 const dbConfig = {
     connectionString: DATABASE_URL,
     max: 30,
-    ssl: true
+    ssl: null
 };
 
 const pgp = pg(options);

@@ -3004,3 +3004,12 @@ TypeError: moment.range is not a function
 [Mon, 15 Mar 2021 09:48:10 GMT] - [31merror[39m: ApiError - 400 - analysis must contain at least 1 item - /api/v1/analysis/result - POST - ::1
 [Sat, 03 Apr 2021 20:14:32 GMT] - [32minfo[39m: Lims system is running on PORT 3000
 [Sat, 03 Apr 2021 20:14:32 GMT] - [32minfo[39m: Redis server is running
+[Sat, 03 Apr 2021 21:20:01 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sat, 03 Apr 2021 21:20:01 GMT] - [32minfo[39m: Redis server is running
+[Sat, 03 Apr 2021 21:21:23 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sat, 03 Apr 2021 21:21:23 GMT] - [32minfo[39m: Redis server is running
+[Sat, 03 Apr 2021 21:21:27 GMT] - [31merror[39m: undefined - Error - The server does not support SSL connections
+[Sat, 03 Apr 2021 21:21:27 GMT] - [31merror[39m: ApiError - 500 - Error verifying existence of staff, try again. - /api/v1/admin/auth/login - POST - ::1
+[Sat, 03 Apr 2021 21:21:53 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sat, 03 Apr 2021 21:21:53 GMT] - [32minfo[39m: Redis server is running
+[Sat, 03 Apr 2021 21:21:59 GMT] - [31merror[39m: ApiError - 401 - Invalid email or password - /api/v1/admin/auth/login - POST - ::1
