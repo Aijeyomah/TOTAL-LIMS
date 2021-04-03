@@ -6,7 +6,7 @@ const { DATABASE_URL, TOTAL_LIMS_SYSTEM_NODE_ENV } = config;
 
 
 let ssl = null;
-if (TOTAL_LIMS_SYSTEM_NODE_ENV === 'development') {
+if (TOTAL_LIMS_SYSTEM_NODE_ENV === 'production') {
     ssl = { rejectUnauthorized: false };
 }
 
