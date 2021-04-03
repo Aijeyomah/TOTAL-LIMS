@@ -5,18 +5,13 @@ import config from '../../../config/env';
 const { DATABASE_URL, TOTAL_LIMS_SYSTEM_NODE_ENV } = config;
 
 
-let ssl = null;
-if (TOTAL_LIMS_SYSTEM_NODE_ENV === 'production') {
-    ssl = { rejectUnauthorized: false };
-}
-
 const options = {
     promiseLib: promise,
 };
 const dbConfig = {
     connectionString: DATABASE_URL,
     max: 30,
-    ssl: ssl
+    ssl: true
 };
 
 const pgp = pg(options);
