@@ -2995,3 +2995,12 @@ TypeError: moment.range is not a function
 [Sat, 30 Jan 2021 22:30:32 GMT] - [32minfo[39m: Redis server is running
 [Sat, 30 Jan 2021 22:30:34 GMT] - [32minfo[39m: Lims system is running on PORT 3000
 [Sat, 30 Jan 2021 22:30:34 GMT] - [32minfo[39m: Redis server is running
+[Mon, 15 Mar 2021 09:40:51 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 15 Mar 2021 09:40:51 GMT] - [32minfo[39m: Redis server is running
+[Mon, 15 Mar 2021 09:43:08 GMT] - [31merror[39m: ApiError - 401 - Access denied,a valid access token is required - /api/v1/analysis/result/facb9e90-663b-40d4-8fd1-cef3d09af28e - GET - ::1
+[Mon, 15 Mar 2021 09:43:50 GMT] - [31merror[39m: ApiError - 403 - Permission denied. Current user does not have the required permission to access this resource. - /api/v1/analysis/result/facb9e90-663b-40d4-8fd1-cef3d09af28e - GET - ::1
+[Mon, 15 Mar 2021 09:47:38 GMT] - [31merror[39m: error fetching product test - Error - TestId: 1 is invalid
+[Mon, 15 Mar 2021 09:47:38 GMT] - [31merror[39m: ApiError - 400 - error fetching product test - /api/v1/analysis/result - POST - ::1
+[Mon, 15 Mar 2021 09:48:10 GMT] - [31merror[39m: ApiError - 400 - analysis must contain at least 1 item - /api/v1/analysis/result - POST - ::1
+[Sat, 03 Apr 2021 20:14:32 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sat, 03 Apr 2021 20:14:32 GMT] - [32minfo[39m: Redis server is running
