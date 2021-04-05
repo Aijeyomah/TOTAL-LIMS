@@ -10,6 +10,9 @@ const options = {
 };
 const dbConfig = {
     connectionString: `${DATABASE_URL}?ssl=true`,
+    ssl: {
+        rejectUnauthorized: false,
+    }
 };
 
 const pgp = pg(options);
