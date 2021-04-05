@@ -1,15 +1,27 @@
 {
-  "development": {
-    "ENV": "TOTAL_LIMS_SYSTEM_POSTGRES_DEV_URL"
-  },
-  "test": {
-    "ENV": "TOTAL_LIMS_SYSTEM_POSTGRES_TEST_URL"
-  },
-  "production": {
-    "ENV": "DATABASE_URL"
-  },
-  "defaultEnv": {
-    "ENV": "TOTAL_LIMS_SYSTEM_NODE_ENV"
-  },
-  "sql-file": true
+    "development": {
+        "ENV": "TOTAL_LIMS_SYSTEM_POSTGRES_DEV_URL",
+        "overwrite": {
+            "driver": "pg",
+            "ssl": {
+                "rejectUnauthorized": false
+            }
+        }
+    },
+    "test": {
+        "ENV": "TOTAL_LIMS_SYSTEM_POSTGRES_TEST_URL"
+    },
+    "production": {
+        "ENV": "DATABASE_URL",
+        "overwrite": {
+            "driver": "pg",
+            "ssl": {
+                "rejectUnauthorized": false
+            }
+        }
+    },
+    "defaultEnv": {
+        "ENV": "TOTAL_LIMS_SYSTEM_NODE_ENV"
+    },
+    "sql-file": true
 }

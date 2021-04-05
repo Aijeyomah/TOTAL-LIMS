@@ -2,7 +2,7 @@ import promise from 'bluebird';
 import pg from 'pg-promise';
 import config from '../../../config/env';
 
-const { DATABASE_URL, TOTAL_LIMS_SYSTEM_NODE_ENV } = config;
+const { DATABASE_URL } = config;
 
 
 const options = {
