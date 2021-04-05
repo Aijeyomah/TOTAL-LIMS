@@ -3013,3 +3013,27 @@ TypeError: moment.range is not a function
 [Sat, 03 Apr 2021 21:21:53 GMT] - [32minfo[39m: Lims system is running on PORT 3000
 [Sat, 03 Apr 2021 21:21:53 GMT] - [32minfo[39m: Redis server is running
 [Sat, 03 Apr 2021 21:21:59 GMT] - [31merror[39m: ApiError - 401 - Invalid email or password - /api/v1/admin/auth/login - POST - ::1
+[Mon, 05 Apr 2021 09:32:35 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 05 Apr 2021 09:32:35 GMT] - [32minfo[39m: Redis server is running
+[Mon, 05 Apr 2021 09:39:46 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 05 Apr 2021 09:39:46 GMT] - [32minfo[39m: Redis server is running
+[Mon, 05 Apr 2021 09:40:43 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 05 Apr 2021 09:40:43 GMT] - [32minfo[39m: Redis server is running
+[Mon, 05 Apr 2021 09:40:49 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 05 Apr 2021 09:40:49 GMT] - [32minfo[39m: Redis server is running
+[Mon, 05 Apr 2021 09:40:53 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 05 Apr 2021 09:40:53 GMT] - [32minfo[39m: Redis server is running
+[Mon, 05 Apr 2021 09:40:57 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 05 Apr 2021 09:40:57 GMT] - [32minfo[39m: Redis server is running
+[Mon, 05 Apr 2021 09:41:09 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 05 Apr 2021 09:41:09 GMT] - [32minfo[39m: Redis server is running
+[Mon, 05 Apr 2021 09:41:22 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 05 Apr 2021 09:41:22 GMT] - [32minfo[39m: Redis server is running
+[Mon, 05 Apr 2021 09:41:36 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 05 Apr 2021 09:41:36 GMT] - [32minfo[39m: Redis server is running
+[Mon, 05 Apr 2021 09:41:57 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 05 Apr 2021 09:41:57 GMT] - [32minfo[39m: Redis server is running
+[Mon, 05 Apr 2021 09:42:07 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 05 Apr 2021 09:42:07 GMT] - [32minfo[39m: Redis server is running
+[Mon, 05 Apr 2021 09:42:23 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Mon, 05 Apr 2021 09:42:23 GMT] - [32minfo[39m: Redis server is running
