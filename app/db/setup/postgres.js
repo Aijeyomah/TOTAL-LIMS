@@ -9,7 +9,7 @@ const options = {
     promiseLib: promise,
 };
 const dbConfig = {
-    connectionString: DATABASE_URL,
+    connectionString: `${DATABASE_URL}?sslmode=require`,
     max: 30,
     ssl: null
 };
