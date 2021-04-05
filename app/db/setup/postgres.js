@@ -10,8 +10,6 @@ const options = {
 };
 const dbConfig = {
     connectionString: `${DATABASE_URL}?sslmode=require`,
-    max: 30,
-    ssl: null
 };
 
 const pgp = pg(options);
