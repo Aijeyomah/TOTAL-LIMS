@@ -9,10 +9,8 @@ const options = {
     promiseLib: promise,
 };
 const dbConfig = {
-    connectionString: `${DATABASE_URL}?ssl=true`,
-    ssl: {
-        rejectUnauthorized: false,
-    }
+    connectionString: `${DATABASE_URL}`,
+    ssl: false
 };
 
 const pgp = pg(options);
