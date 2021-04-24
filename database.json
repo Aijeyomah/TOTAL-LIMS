@@ -6,11 +6,7 @@
         "ENV": "TOTAL_LIMS_SYSTEM_POSTGRES_TEST_URL"
     },
     "production": {
-        "ENV": "DATABASE_URL",
-        "ssl": {
-            "require": true,
-            "rejectUnauthorized": false
-        }
+        "ENV": "DATABASE_URL"
     },
     "defaultEnv": {
         "ENV": "TOTAL_LIMS_SYSTEM_NODE_ENV"
