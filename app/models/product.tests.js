@@ -17,7 +17,7 @@ class ProductTestModel {
    * @memberof BlendProduct
    */
   constructor(options) {
-    this.id = Helper.generateId(),
+    
     this.analysis = options.analysis,
     this.category = options.category;
   }
@@ -28,13 +28,22 @@ class ProductTestModel {
    */
   async save() {
     try {
+      const productTestQuery = [];
+      const categoryTestQuery = [];
       return db.tx(async (t) => {
-        const ProductTest = this.analysis.map(({ method, test, unit }) => t.any(createProductTest, [this.id, method, test, unit]));
-        const categoryTest = this.category.map(({ categoryId }) => {
+       this.analysis.map(({ method, test, unit }) =>{
+        const id = Helper.generateId();
+
+          productTestQuery.push(t.any(createProductTest, [id, method, test, unit]))
+   
+          this.category.map(({ categoryId }) => {
           const catId = Helper.generateId();
-          t.any(createCategoryTest, [catId, categoryId, this.id]);
+          categoryTestQuery.push(t.any(createCategoryTest, [catId, categoryId, id]));
         });
-        await Promise.all([ProductTest, categoryTest]);
+
+      });
+
+       const result = await Promise.all([productTestQuery, categoryTestQuery]);
       });
     } catch (error) {
 

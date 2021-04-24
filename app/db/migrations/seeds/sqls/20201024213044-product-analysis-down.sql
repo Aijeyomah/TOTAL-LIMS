@@ -1,1 +1,1 @@
-/* Replace with your SQL commands */
+TRUNCATE TABLE product_tests CASCADE;
