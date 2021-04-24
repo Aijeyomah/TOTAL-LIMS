@@ -8,13 +8,13 @@ const { DATABASE_URL } = config;
 const options = {
     promiseLib: promise,
 };
-const dbConfig = {
-    connectionString: `${DATABASE_URL}`,
-    ssl: true
-};
+// const dbConfig = {
+//     connectionString: `${DATABASE_URL}/?sslmode=require`,
+//     ssl: true
+// };
 
 const pgp = pg(options);
 
-const db = pgp(dbConfig);
+const db = pgp( `${DATABASE_URL}/?sslmode=require`);
 
 export default db;
