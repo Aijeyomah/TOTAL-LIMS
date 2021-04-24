@@ -3051,3 +3051,5 @@ TypeError: moment.range is not a function
 [Mon, 05 Apr 2021 10:21:23 GMT] - [32minfo[39m: Redis server is running
 [Mon, 05 Apr 2021 10:21:26 GMT] - [32minfo[39m: Lims system is running on PORT 3000
 [Mon, 05 Apr 2021 10:21:26 GMT] - [32minfo[39m: Redis server is running
+[Sat, 24 Apr 2021 01:31:09 GMT] - [32minfo[39m: Lims system is running on PORT 3000
+[Sat, 24 Apr 2021 01:31:09 GMT] - [32minfo[39m: Redis server is running
