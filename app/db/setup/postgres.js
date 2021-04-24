@@ -15,6 +15,6 @@ const options = {
 
 const pgp = pg(options);
 
-const db = pgp( `${DATABASE_URL}/?sslmode=require`);
+const db = pgp( DATABASE_URL);
 
 export default db;
